@@ -62,15 +62,15 @@
 	#putting in -difficulty- produces no change, putting 0 will reset difficulty after this action
 	[difficulty.mutators]
 		#EvalEx expression: A player sleeps in a bed
-		onPlayerSleep = "difficulty"
+		onPlayerSleep = "difficulty + 0.1"
 		#EvalEx expression: A player dies
-		onPlayerDeath = "difficulty"
+		onPlayerDeath = "difficulty - 0.05"
 		#EvalEx expression: A normal hostile mob is killed by a player
 		onHostileKilled = "difficulty"
 		#EvalEx expression: A player killed another player
 		onPlayerKilled = "difficulty + 1.0"
 		#EvalEx expression: A boss is killed by a player
-		onBossKilled = "difficulty"
+		onBossKilled = "difficulty + 5.0"
 		#EvalEx expression: A blight is killed by a player
 		onBlightKilled = "difficulty"
 		#EvalEx expression: A peaceful mob is killed by a player
@@ -111,7 +111,7 @@
 
 	[mob.xp]
 		#Xp scaling multiplied by difficulty - xp scale of 0.1 with difficulty 10 will give about 11x more xp
-		Boost = 0.03
+		Boost = 0.04
 
 	#Mob health settings
 	[mob.health]
@@ -205,7 +205,7 @@
 
 	[item.heart_crystal]
 		#The number of levels required to use a heart crystal.
-		levelCost = 10
+		levelCost = 8
 		#The amount of additional health restored by heart crystals.
 		#Heart crystals always restore the amount of health they add, this is a bonus
 		healthRestored = 4.0
@@ -218,9 +218,9 @@
 
 	[item.power_crystal]
 		#The number of levels required to use a power crystal.
-		levelCost = 10
+		levelCost = 7
 		#How much more damage a player deals after using a power crystal.
-		damageBoost = 0.3
+		damageBoost = 0.2
 
 	[item.chance_heart]
 		#Change in difficulty when a chance heart is used
@@ -290,7 +290,7 @@
 		minHealth = 2
 		#The highest max health a player can reach, not considering the vanilla
 		# health cap and modifiers from other sources. 0 means 'unlimited'.
-		maxHealth = 60
+		maxHealth = 40
 
 		#settings for hp scaling by xp level
 		[player.health.xp]

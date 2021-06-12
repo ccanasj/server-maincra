@@ -23,7 +23,7 @@
 
 		[difficulty.meter.text]
 			#Scale of text on the difficulty meter
-			scale = 0.6
+			scale = 0.8
 
 [debug]
 
