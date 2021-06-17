@@ -1,445 +1,102 @@
-[12Jun2021 00:00:10.330] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ccanasj was slain by Zombie
-[12Jun2021 00:00:12.016] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 00:00:12.017] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 00:00:56.579] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ccanasj was slain by Spider
-[12Jun2021 00:00:58.144] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 00:00:58.145] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 00:00:58.166] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/822, l='ServerLevel[zawarudo]', x=-75.30, y=59.13, z=97.96]
-[12Jun2021 00:01:53.618] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityFlyingFish from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
-[12Jun2021 00:01:53.622] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityFlyingFish from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
-[12Jun2021 00:02:13.723] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ccanasj was slain by Zombie
-[12Jun2021 00:02:15.541] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 00:02:15.542] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 00:02:53.331] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ccanasj was shot by Skeleton
-[12Jun2021 00:02:54.981] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 00:02:54.981] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 00:03:06.767] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [ccanasj: Set own game mode to Creative Mode]
-[12Jun2021 00:03:49.532] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [ccanasj: Set own game mode to Survival Mode]
-[12Jun2021 00:06:33.518] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntitySaltwaterEel from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
-[12Jun2021 00:06:33.519] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntitySaltwaterEel from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
-[12Jun2021 00:06:45.468] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityShark from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
-[12Jun2021 00:07:50.918] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityDragonfly from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
-[12Jun2021 00:07:50.918] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityDragonfly from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
-[12Jun2021 00:14:36.688] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ccanasj was shot by Skeleton
-[12Jun2021 00:14:37.996] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 00:14:37.997] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 00:18:49.768] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityPiranha from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
-[12Jun2021 00:23:30.024] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ccanasj has made the advancement [Acquire Hardware]
-[12Jun2021 00:23:38.073] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ccanasj has made the advancement [Isn't It Iron Pick]
-[12Jun2021 00:30:25.772] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ccanasj has made the advancement [Torch Upgrade!]
-[12Jun2021 00:34:29.283] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ccanasj tried to swim in lava
-[12Jun2021 00:34:31.053] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 00:34:31.054] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 00:35:10.211] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/4279, l='ServerLevel[zawarudo]', x=151.73, y=62.51, z=-15.69]
-[12Jun2021 00:35:12.863] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/4278, l='ServerLevel[zawarudo]', x=162.94, y=62.53, z=-20.81]
-[12Jun2021 00:38:20.816] [Worker-Main-2/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityCrab from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
-[12Jun2021 00:54:31.331] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: ccanasj lost connection: Disconnected
-[12Jun2021 00:54:31.332] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ccanasj left the game
-[12Jun2021 01:27:26.017] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Server] xddddd
-[12Jun2021 02:01:27.900] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@432db7c
-[12Jun2021 02:01:28.137] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: ccanasj[/191.95.152.26:40946] logged in with entity id 6984 at (82.11703947051704, 24.0, 27.302705868519695)
-[12Jun2021 02:01:28.148] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ccanasj joined the game
-[12Jun2021 02:01:28.171] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/6639, l='ServerLevel[zawarudo]', x=157.70, y=63.34, z=-11.48]
-[12Jun2021 02:01:28.181] [Server thread/INFO] [Scaling Health/]: Sending login packet to player ServerPlayerEntity['ccanasj'/6984, l='ServerLevel[zawarudo]', x=82.12, y=24.00, z=27.30]
-[12Jun2021 02:01:28.182] [Server thread/INFO] [Scaling Health/]: Updating stats for null
-[12Jun2021 02:05:46.882] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@2f2d2ccd
-[12Jun2021 02:05:46.890] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Nuvon[/181.139.236.105:63453] logged in with entity id 7332 at (-17.5, 70.0, 95.5)
-[12Jun2021 02:05:46.894] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon joined the game
-[12Jun2021 02:05:46.952] [Server thread/INFO] [Scaling Health/]: Sending login packet to player ServerPlayerEntity['Nuvon'/7332, l='ServerLevel[zawarudo]', x=-17.50, y=70.00, z=95.50]
-[12Jun2021 02:05:46.955] [Server thread/INFO] [Scaling Health/]: Updating stats for null
-[12Jun2021 02:05:49.956] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon has made the advancement [Dark Times]
-[12Jun2021 02:05:49.971] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3054ms or 61 ticks behind
-[12Jun2021 02:07:05.693] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> Camilo esto por qué tiene shaders ahhhhhh
-[12Jun2021 02:10:20.393] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Nuvon lost connection: Timed out
-[12Jun2021 02:10:20.393] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon left the game
-[12Jun2021 02:10:20.573] [Server thread/WARN] [net.minecraft.network.NetworkManager/]: handleDisconnection() called twice
-[12Jun2021 02:11:19.730] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <ccanasj> xd
-[12Jun2021 02:11:23.270] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 62d1de17-c29d-402c-b151-b2712c30a28f. Existing quark:frog#7935, new: quark:frog#7935
-[12Jun2021 02:14:08.082] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@e7da852
-[12Jun2021 02:14:08.094] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Daves2126[/190.146.204.197:49563] logged in with entity id 8128 at (-19.5, 69.0, 103.5)
-[12Jun2021 02:14:08.098] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Daves2126 joined the game
-[12Jun2021 02:14:08.137] [Server thread/INFO] [Scaling Health/]: Sending login packet to player ServerPlayerEntity['Daves2126'/8128, l='ServerLevel[zawarudo]', x=-19.50, y=69.00, z=103.50]
-[12Jun2021 02:14:08.138] [Server thread/INFO] [Scaling Health/]: Updating stats for null
-[12Jun2021 02:14:12.259] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Daves2126 has made the advancement [Dark Times]
-[12Jun2021 02:14:12.274] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4157ms or 83 ticks behind
-[12Jun2021 02:15:28.438] [Server thread/WARN] [net.minecraft.world.server.ServerWorld/]: Trying to add entity with duplicated UUID 86036cef-0c1c-4cb9-8746-f06253dee611. Existing quark:frog#8327, new: quark:frog#8327
-[12Jun2021 02:16:05.064] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@10c38f46
-[12Jun2021 02:16:05.260] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Nuvon[/181.139.236.105:63561] logged in with entity id 8434 at (13.343260111429467, 69.0, 80.30816435418618)
-[12Jun2021 02:16:05.267] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon joined the game
-[12Jun2021 02:16:05.335] [Server thread/INFO] [Scaling Health/]: Sending login packet to player ServerPlayerEntity['Nuvon'/8434, l='ServerLevel[zawarudo]', x=13.34, y=69.00, z=80.31]
-[12Jun2021 02:16:05.335] [Server thread/INFO] [Scaling Health/]: Updating stats for null
-[12Jun2021 02:16:53.335] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> uy que susto
-[12Jun2021 02:16:55.935] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> jajajaja
-[12Jun2021 02:17:05.209] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> no me vaya a matar que tengo unos libros que creo que son importantes xd
-[12Jun2021 02:17:10.045] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> ok
-[12Jun2021 02:17:13.634] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> lo sigo
-[12Jun2021 02:17:18.016] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> pq acabo de entrar
-[12Jun2021 02:17:25.285] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> esteban a usted tambien se le pusieron shaders?
-[12Jun2021 02:17:29.839] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> yo tmb xd
-[12Jun2021 02:17:42.300] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> no yo tengo los shadders por defecto
-[12Jun2021 02:17:47.197] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> ahhh
-[12Jun2021 02:17:52.652] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> es mas no se porque no me aparecen los que le habia instalado
-[12Jun2021 02:17:54.994] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> pq?
-[12Jun2021 02:18:09.893] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> es que yo no tenia shaders y me aparecieron unos disque chocapic
-[12Jun2021 02:18:14.803] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> si los quito me crashea
-[12Jun2021 02:18:24.252] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> wtf ajjajja esos son los que yo tengo
-[12Jun2021 02:18:30.206] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> pero a mi no me aparecen
-[12Jun2021 02:18:30.601] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> jajajaj quepedo
-[12Jun2021 02:18:39.097] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> camilo diganos sus coordenadas
-[12Jun2021 02:18:42.984] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> vamos a griftearlo
-[12Jun2021 02:18:48.007] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> camilo demas que ni esta
-[12Jun2021 02:18:56.197] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> ahhh jajsja
-[12Jun2021 02:19:04.288] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> y entonces que hacemos? yo tmb acabe de entrar
-[12Jun2021 02:19:05.584] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> toco a la antigua a contruir una casita
-[12Jun2021 02:19:10.998] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> va va
-[12Jun2021 02:19:21.198] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Daves2126 has made the advancement [X Marks the Spot]
-[12Jun2021 02:19:25.335] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon has made the advancement [X Marks the Spot]
-[12Jun2021 02:19:28.316] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> edder abri este cofre
-[12Jun2021 02:19:33.408] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> cada persona tiene un loot diferente
-[12Jun2021 02:19:37.563] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> wtfff
-[12Jun2021 02:19:52.478] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon has made the advancement [Ice Bucket Challenge]
-[12Jun2021 02:20:22.892] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> ahi va a entrar emanuel
-[12Jun2021 02:20:31.566] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> le escribió o que?
-[12Jun2021 02:20:39.557] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> esta online en discord
-[12Jun2021 02:20:45.685] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> ahh
-[12Jun2021 02:20:54.957] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> y el no siempre se conecta
-[12Jun2021 02:20:58.638] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> esteban usted sabe como coloco waypoints?
-[12Jun2021 02:21:06.656] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> ve edder pongale un gif a su foto de perfil
-[12Jun2021 02:21:16.355] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> si presione la u
-[12Jun2021 02:21:18.148] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> jajajja noo a mi me gusta mi logito de discord
-[12Jun2021 02:23:24.588] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon has made the advancement [Stone Age]
-[12Jun2021 02:23:34.425] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon was slain by Zombie
-[12Jun2021 02:23:36.109] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 02:23:36.109] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 02:23:38.462] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> jaajja efe
-[12Jun2021 02:23:39.306] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> K
-[12Jun2021 02:23:47.936] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> jaskdjask
-[12Jun2021 02:24:48.563] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon has made the advancement [Monster Hunter]
-[12Jun2021 02:25:03.576] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon was slain by Zombie
-[12Jun2021 02:25:04.787] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 02:25:04.788] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 02:25:09.202] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> a
-[12Jun2021 02:25:27.643] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <ccanasj> Uy wuenas
-[12Jun2021 02:25:31.395] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> camilo
-[12Jun2021 02:25:33.547] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> mi loco
-[12Jun2021 02:25:37.606] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <ccanasj> Eder
-[12Jun2021 02:25:38.900] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> por que tengo 5 corazones
-[12Jun2021 02:25:39.635] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> ese xombie esta reop entonces eeder
-[12Jun2021 02:25:42.797] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> camilo coordenadas
-[12Jun2021 02:25:50.034] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> no vamos a hacer nada malo
-[12Jun2021 02:25:53.496] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <ccanasj> 81 10 20
-[12Jun2021 02:27:21.633] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Daves2126 was shot by Skeleton
-[12Jun2021 02:27:23.844] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 02:27:23.845] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 02:27:36.184] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <ccanasj> f
-[12Jun2021 02:27:36.284] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Nuvon lost connection: Timed out
-[12Jun2021 02:27:36.284] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon left the game
-[12Jun2021 02:27:36.351] [Server thread/WARN] [net.minecraft.network.NetworkManager/]: handleDisconnection() called twice
-[12Jun2021 02:28:06.293] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@f20c225
-[12Jun2021 02:28:06.477] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Nuvon[/181.139.236.105:63581] logged in with entity id 9954 at (26.31577598894716, 67.0, 57.931306181831005)
-[12Jun2021 02:28:06.498] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon joined the game
-[12Jun2021 02:28:06.628] [Server thread/INFO] [Scaling Health/]: Sending login packet to player ServerPlayerEntity['Nuvon'/9954, l='ServerLevel[zawarudo]', x=26.32, y=67.00, z=57.93]
-[12Jun2021 02:28:06.628] [Server thread/INFO] [Scaling Health/]: Updating stats for null
-[12Jun2021 02:28:14.985] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon was shot by Skeleton
-[12Jun2021 02:28:18.985] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <ccanasj> discord o se les arruga?
-[12Jun2021 02:28:23.498] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> ok
-[12Jun2021 02:28:51.785] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Nuvon lost connection: Timed out
-[12Jun2021 02:28:51.786] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon left the game
-[12Jun2021 02:28:51.786] [Server thread/WARN] [twilightforest/]: Dropping inventory items previously held in reserve for player Nuvon (ed2bec83-06dc-3c20-90ee-85140dbe6609)
-[12Jun2021 02:29:37.744] [Worker-Main-2/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityBearNeutral from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
-[12Jun2021 02:30:42.270] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@196380e
-[12Jun2021 02:30:42.426] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Nuvon[/181.139.236.105:63605] logged in with entity id 10530 at (26.31577598894716, 67.0, 57.931306181831005)
-[12Jun2021 02:30:42.432] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon joined the game
-[12Jun2021 02:30:42.520] [Server thread/INFO] [Scaling Health/]: Sending login packet to player ServerPlayerEntity['Nuvon'/10530, l='ServerLevel[zawarudo]', x=26.32, y=67.00, z=57.93]
-[12Jun2021 02:30:42.520] [Server thread/INFO] [Scaling Health/]: Updating stats for null
-[12Jun2021 02:30:53.267] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityBobbitWorm from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
-[12Jun2021 02:31:19.937] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 02:31:19.937] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 02:31:47.442] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> camilo
-[12Jun2021 02:31:51.047] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <ccanasj> Eder
-[12Jun2021 02:31:51.186] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> parece en esa hierba
-[12Jun2021 02:31:53.703] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> creo que crashea
-[12Jun2021 02:32:03.880] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <ccanasj> xdddd
-[12Jun2021 02:32:18.950] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> wtf
-[12Jun2021 02:32:19.576] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Daves2126 was slain by Wilden Stalker
-[12Jun2021 02:32:21.911] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 02:32:21.913] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 02:32:22.594] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> XDD
-[12Jun2021 02:32:35.449] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <ccanasj> Tremendo crasheo
-[12Jun2021 02:32:56.413] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> Camilo como nos subimos la vida?
-[12Jun2021 02:33:01.466] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> edder unase a discord
-[12Jun2021 02:33:05.061] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> ah ya voy
-[12Jun2021 02:33:05.594] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <ccanasj> Automamadas
-[12Jun2021 02:34:37.286] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@7e75ec47
-[12Jun2021 02:34:37.292] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Emanuel24[/190.251.138.141:50195] logged in with entity id 10985 at (-10.5, 70.0, 94.5)
-[12Jun2021 02:34:37.295] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Emanuel24 joined the game
-[12Jun2021 02:34:37.397] [Server thread/INFO] [Scaling Health/]: Sending login packet to player ServerPlayerEntity['Emanuel24'/10985, l='ServerLevel[zawarudo]', x=-10.50, y=70.00, z=94.50]
-[12Jun2021 02:34:37.397] [Server thread/INFO] [Scaling Health/]: Updating stats for null
-[12Jun2021 02:34:40.801] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Emanuel24 has made the advancement [Dark Times]
-[12Jun2021 02:34:40.833] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3516ms or 70 ticks behind
-[12Jun2021 02:34:58.124] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon has made the advancement [Getting an Upgrade]
-[12Jun2021 02:35:18.838] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Daves2126 has made the advancement [Stone Age]
-[12Jun2021 02:36:01.624] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Daves2126 has made the advancement [Getting an Upgrade]
-[12Jun2021 02:36:55.208] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> 81 10 20
-[12Jun2021 02:37:08.857] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> 30 60 46
-[12Jun2021 02:38:09.949] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Daves2126 lost connection: Timed out
-[12Jun2021 02:38:09.949] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Daves2126 left the game
-[12Jun2021 02:38:11.256] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Nuvon> c me queda en rtc conecting
-[12Jun2021 02:38:15.443] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Emanuel24 has made the advancement [Stone Age]
-[12Jun2021 02:38:37.511] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@31a78d69
-[12Jun2021 02:38:37.697] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Daves2126[/190.146.204.197:53092] logged in with entity id 11547 at (25.12338534094773, 58.0, 53.95879025201572)
-[12Jun2021 02:38:37.718] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Daves2126 joined the game
-[12Jun2021 02:38:37.852] [Server thread/INFO] [Scaling Health/]: Sending login packet to player ServerPlayerEntity['Daves2126'/11547, l='ServerLevel[zawarudo]', x=25.12, y=58.00, z=53.96]
-[12Jun2021 02:38:37.852] [Server thread/INFO] [Scaling Health/]: Updating stats for null
-[12Jun2021 02:39:26.423] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ccanasj has made the advancement [Suit Up]
-[12Jun2021 02:40:07.829] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Daves2126 has made the advancement [Acquire Hardware]
-[12Jun2021 02:40:17.775] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Emanuel24 has made the advancement [Getting an Upgrade]
-[12Jun2021 02:41:09.228] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Daves2126 has made the advancement [Isn't It Iron Pick]
-[12Jun2021 02:42:30.790] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Daves2126 was shot by Skeleton
-[12Jun2021 02:42:32.405] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 02:42:32.405] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 02:42:36.841] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon was shot by Skeleton
-[12Jun2021 02:42:38.555] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 02:42:38.555] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 02:43:33.197] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon was shot by Skeleton
-[12Jun2021 02:43:34.713] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 02:43:34.713] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 02:44:16.832] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Daves2126 was slain by Skeleton
-[12Jun2021 02:44:19.696] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 02:44:19.696] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 02:44:52.336] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon was slain by Zombie
-[12Jun2021 02:44:58.554] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 02:44:58.554] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 02:45:17.497] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Daves2126 was shot by Skeleton
-[12Jun2021 02:45:18.806] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 02:45:18.807] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 02:45:18.958] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/12800, l='ServerLevel[zawarudo]', x=136.32, y=60.02, z=-30.68]
-[12Jun2021 02:45:43.677] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon was slain by Zombie
-[12Jun2021 02:45:45.010] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 02:45:45.010] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 02:45:45.049] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/12800, l='ServerLevel[zawarudo]', x=136.32, y=60.02, z=-30.68]
-[12Jun2021 02:46:04.490] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Daves2126 was slain by Skeleton
-[12Jun2021 02:46:05.803] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 02:46:05.804] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 02:49:28.637] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon was slain by Summoned Wolf
-[12Jun2021 02:49:52.315] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 02:49:52.316] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 02:51:01.737] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon was slain by Summoned Wolf
-[12Jun2021 02:51:06.692] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 02:51:06.692] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 02:51:11.574] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Emanuel24 has made the advancement [Acquire Hardware]
-[12Jun2021 02:51:31.873] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Emanuel24 has made the advancement [Isn't It Iron Pick]
-[12Jun2021 02:52:05.194] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Daves2126 moved too quickly! 6.1832611811392635,-1.0,7.8069467749207035
-[12Jun2021 02:52:28.188] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Daves2126 has made the advancement [Torch Upgrade!]
-[12Jun2021 02:52:52.404] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Daves2126 was slain by ccanasj
-[12Jun2021 02:52:53.942] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 02:52:53.942] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 02:53:28.619] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Emanuel24 has made the advancement [Torch Upgrade!]
-[12Jun2021 02:55:11.475] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon has made the advancement [Acquire Hardware]
-[12Jun2021 02:55:22.277] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon has made the advancement [Suit Up]
-[12Jun2021 02:58:43.343] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Daves2126 has made the advancement [Diamonds!]
-[12Jun2021 02:59:22.894] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Emanuel24 tried to swim in lava
-[12Jun2021 02:59:25.296] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 02:59:25.296] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 02:59:25.334] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/15180, l='ServerLevel[zawarudo]', x=136.90, y=54.78, z=-6.78]
-[12Jun2021 03:00:01.984] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon was slain by Zombie
-[12Jun2021 03:00:03.218] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 03:00:03.219] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 03:00:03.271] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/15180, l='ServerLevel[zawarudo]', x=136.90, y=54.78, z=-6.78]
-[12Jun2021 03:00:20.949] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> time set dayt
-[12Jun2021 03:01:32.150] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon was shot by Skeleton
-[12Jun2021 03:01:34.250] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
-java.lang.NullPointerException: null
-	at net.minecraft.world.server.TicketManager.func_219367_b(TicketManager.java:227) ~[?:?]
-	at net.minecraft.world.server.ChunkManager.func_219183_a(ChunkManager.java:879) ~[?:?]
-	at net.minecraft.world.server.ServerChunkProvider.func_217221_a(ServerChunkProvider.java:445) ~[?:?]
-	at net.minecraft.network.play.ServerPlayNetHandler.func_147347_a(ServerPlayNetHandler.java:845) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerPacket.func_148833_a(SourceFile:122) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerPacket$PositionPacket.func_148833_a(SourceFile:56) ~[?:?]
-	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21) ~[?:?]
-	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) ~[?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) ~[?:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) ~[?:?]
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734) ~[?:?]
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159) ~[?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118) ~[?:?]
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717) ~[?:?]
-	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711) ~[?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(SourceFile:103) ~[?:?]
-	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:696) ~[?:?]
-	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646) ~[?:?]
-	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[?:?]
-	at java.lang.Thread.run(Thread.java:829) [?:?]
-[12Jun2021 03:01:37.654] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 03:01:37.654] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 03:02:10.259] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Nuvon lost connection: Timed out
-[12Jun2021 03:02:10.259] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon left the game
-[12Jun2021 03:03:07.378] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: Disconnecting com.mojang.authlib.GameProfile@11f2402a[id=<null>,name=Nuvon,properties={},legacy=false] (/181.139.236.105:63677): Took too long to log in
-[12Jun2021 03:03:07.415] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@11f2402a[id=<null>,name=Nuvon,properties={},legacy=false] (/181.139.236.105:63677) lost connection: Took too long to log in
-[12Jun2021 03:03:45.958] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: Disconnecting com.mojang.authlib.GameProfile@1c427f41[id=<null>,name=Nuvon,properties={},legacy=false] (/181.139.236.105:63686): Took too long to log in
-[12Jun2021 03:03:46.004] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@1c427f41[id=<null>,name=Nuvon,properties={},legacy=false] (/181.139.236.105:63686) lost connection: Took too long to log in
-[12Jun2021 03:04:40.076] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@508dbdb4
-[12Jun2021 03:04:40.223] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Nuvon[/181.139.236.105:63693] logged in with entity id 17845 at (10.17962690686841, 64.0, 85.71971393199668)
-[12Jun2021 03:04:40.228] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon joined the game
-[12Jun2021 03:04:40.265] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/17147, l='ServerLevel[zawarudo]', x=135.35, y=54.25, z=-10.87]
-[12Jun2021 03:04:40.276] [Server thread/INFO] [Scaling Health/]: Sending login packet to player ServerPlayerEntity['Nuvon'/17845, l='ServerLevel[zawarudo]', x=10.18, y=64.00, z=85.72]
-[12Jun2021 03:04:40.276] [Server thread/INFO] [Scaling Health/]: Updating stats for null
-[12Jun2021 03:05:02.218] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Nuvon lost connection: Timed out
-[12Jun2021 03:05:02.219] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon left the game
-[12Jun2021 03:05:48.241] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@151689c7
-[12Jun2021 03:05:48.428] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Nuvon[/181.139.236.105:63701] logged in with entity id 18109 at (10.17962690686841, 64.0, 85.71971393199668)
-[12Jun2021 03:05:48.449] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon joined the game
-[12Jun2021 03:05:48.580] [Server thread/INFO] [Scaling Health/]: Sending login packet to player ServerPlayerEntity['Nuvon'/18109, l='ServerLevel[zawarudo]', x=10.18, y=64.00, z=85.72]
-[12Jun2021 03:05:48.580] [Server thread/INFO] [Scaling Health/]: Updating stats for null
-[12Jun2021 03:06:24.759] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/17829, l='ServerLevel[zawarudo]', x=171.64, y=53.26, z=0.21]
-[12Jun2021 03:06:33.739] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Nuvon lost connection: Timed out
-[12Jun2021 03:06:33.740] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon left the game
-[12Jun2021 03:06:35.643] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/17829, l='ServerLevel[zawarudo]', x=171.64, y=53.26, z=0.21]
-[12Jun2021 03:15:39.192] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20389, l='ServerLevel[zawarudo]', x=248.02, y=62.10, z=33.50]
-[12Jun2021 03:15:44.091] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: ccanasj has made the advancement [Diamonds!]
-[12Jun2021 03:16:06.246] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20389, l='ServerLevel[zawarudo]', x=248.02, y=62.10, z=33.50]
-[12Jun2021 03:16:36.295] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20389, l='ServerLevel[zawarudo]', x=248.02, y=62.10, z=33.50]
-[12Jun2021 03:17:09.524] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@7141f62d
-[12Jun2021 03:17:09.673] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Nuvon[/181.139.236.105:63821] logged in with entity id 21161 at (10.17962690686841, 64.0, 85.71971393199668)
-[12Jun2021 03:17:09.678] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon joined the game
-[12Jun2021 03:17:09.722] [Server thread/INFO] [Scaling Health/]: Sending login packet to player ServerPlayerEntity['Nuvon'/21161, l='ServerLevel[zawarudo]', x=10.18, y=64.00, z=85.72]
-[12Jun2021 03:17:09.722] [Server thread/INFO] [Scaling Health/]: Updating stats for null
-[12Jun2021 03:17:27.151] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Nuvon lost connection: Timed out
-[12Jun2021 03:17:27.152] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon left the game
-[12Jun2021 03:18:03.026] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Emanuel24 has made the advancement [Suit Up]
-[12Jun2021 03:18:10.225] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@8eb5f92
-[12Jun2021 03:18:10.406] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Nuvon[/181.139.236.105:63829] logged in with entity id 21439 at (10.17962690686841, 64.0, 85.71971393199668)
-[12Jun2021 03:18:10.410] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon joined the game
-[12Jun2021 03:18:10.472] [Server thread/INFO] [Scaling Health/]: Sending login packet to player ServerPlayerEntity['Nuvon'/21439, l='ServerLevel[zawarudo]', x=10.18, y=64.00, z=85.72]
-[12Jun2021 03:18:10.473] [Server thread/INFO] [Scaling Health/]: Updating stats for null
-[12Jun2021 03:18:42.504] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Daves2126 has made the advancement [Monster Hunter]
-[12Jun2021 03:19:15.292] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon was slain by Wilden Stalker
-[12Jun2021 03:19:21.403] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 03:19:21.403] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 03:19:53.943] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon was shot by Skeleton
-[12Jun2021 03:19:55.267] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 03:19:55.267] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 03:20:21.481] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon was slain by Wilden Stalker
-[12Jun2021 03:20:25.391] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 03:20:25.392] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 03:20:34.410] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
-[12Jun2021 03:21:02.731] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon was slain by Spider
-[12Jun2021 03:21:04.368] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 03:21:04.368] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 03:21:18.703] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon was shot by Skeleton
-[12Jun2021 03:21:57.612] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 03:21:57.612] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 03:22:23.849] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon was shot by Skeleton
-[12Jun2021 03:22:25.168] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 03:22:25.168] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 03:23:21.507] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Emanuel24 has made the advancement [Monster Hunter]
-[12Jun2021 03:23:26.886] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Emanuel24 was slain by Zombie
-[12Jun2021 03:23:28.558] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 03:23:28.558] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 03:23:42.052] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon was slain by Zombie
-[12Jun2021 03:23:43.440] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 03:23:43.441] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 03:23:52.559] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/23104, l='ServerLevel[zawarudo]', x=262.84, y=62.49, z=16.32]
-[12Jun2021 03:23:57.004] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Emanuel24 was slain by Wilden Stalker
-[12Jun2021 03:23:58.238] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 03:23:58.238] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 03:24:08.227] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon was shot by Skeleton
-[12Jun2021 03:24:09.383] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 03:24:09.383] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 03:24:27.836] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Emanuel24 was slain by Zombie
-[12Jun2021 03:24:28.867] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon was slain by Spider
-[12Jun2021 03:24:30.059] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 03:24:30.067] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 03:24:30.337] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[12Jun2021 03:24:30.338] [Server thread/INFO] [Scaling Health/]: Player lost -0.05 difficulty
-[12Jun2021 03:24:56.754] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/23019, l='ServerLevel[zawarudo]', x=190.40, y=61.63, z=69.39]
-[12Jun2021 03:24:57.806] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/23019, l='ServerLevel[zawarudo]', x=190.40, y=61.63, z=69.39]
-[12Jun2021 03:25:01.406] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/23019, l='ServerLevel[zawarudo]', x=190.40, y=61.63, z=69.39]
-[12Jun2021 03:25:25.360] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/23019, l='ServerLevel[zawarudo]', x=190.40, y=61.63, z=69.39]
-[12Jun2021 03:26:02.301] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20389, l='ServerLevel[zawarudo]', x=248.02, y=62.10, z=33.50]
-[12Jun2021 03:26:04.003] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20957, l='ServerLevel[zawarudo]', x=258.50, y=63.09, z=32.48]
-[12Jun2021 03:26:04.398] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20389, l='ServerLevel[zawarudo]', x=248.02, y=62.10, z=33.50]
-[12Jun2021 03:26:04.464] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20955, l='ServerLevel[zawarudo]', x=261.42, y=62.53, z=27.59]
-[12Jun2021 03:26:08.510] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/22939, l='ServerLevel[zawarudo]', x=277.35, y=60.20, z=8.40]
-[12Jun2021 03:26:13.956] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20957, l='ServerLevel[zawarudo]', x=258.50, y=63.09, z=32.48]
-[12Jun2021 03:26:14.868] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20955, l='ServerLevel[zawarudo]', x=261.42, y=62.53, z=27.59]
-[12Jun2021 03:30:39.616] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20389, l='ServerLevel[zawarudo]', x=248.02, y=62.10, z=33.50]
-[12Jun2021 03:30:44.506] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20389, l='ServerLevel[zawarudo]', x=248.02, y=62.10, z=33.50]
-[12Jun2021 03:31:11.231] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon has made the advancement [Torch Upgrade!]
-[12Jun2021 03:31:48.894] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20389, l='ServerLevel[zawarudo]', x=248.02, y=62.10, z=33.50]
-[12Jun2021 03:31:57.244] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20389, l='ServerLevel[zawarudo]', x=248.02, y=62.10, z=33.50]
-[12Jun2021 03:32:01.847] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20389, l='ServerLevel[zawarudo]', x=248.02, y=62.10, z=33.50]
-[12Jun2021 03:32:25.548] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20957, l='ServerLevel[zawarudo]', x=258.50, y=63.09, z=32.48]
-[12Jun2021 03:32:25.994] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20955, l='ServerLevel[zawarudo]', x=261.42, y=62.53, z=27.59]
-[12Jun2021 03:32:30.996] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/25080, l='ServerLevel[zawarudo]', x=298.31, y=55.25, z=33.55]
-[12Jun2021 03:32:48.395] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20389, l='ServerLevel[zawarudo]', x=248.02, y=62.10, z=33.50]
-[12Jun2021 03:32:59.116] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20957, l='ServerLevel[zawarudo]', x=258.50, y=63.09, z=32.48]
-[12Jun2021 03:32:59.565] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20955, l='ServerLevel[zawarudo]', x=261.42, y=62.53, z=27.59]
-[12Jun2021 03:33:07.306] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/25080, l='ServerLevel[zawarudo]', x=298.31, y=55.25, z=33.55]
-[12Jun2021 03:35:09.136] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
-[12Jun2021 03:35:57.287] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Nuvon lost connection: Timed out
-[12Jun2021 03:35:57.287] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon left the game
-[12Jun2021 03:36:32.188] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Emanuel24 has made the advancement [X Marks the Spot]
-[12Jun2021 03:37:33.775] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[12Jun2021 03:38:13.200] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 24433ms or 488 ticks behind
-[12Jun2021 03:38:53.069] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 24902ms or 498 ticks behind
-[12Jun2021 03:39:35.117] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 27050ms or 541 ticks behind
-[12Jun2021 03:40:10.121] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 20005ms or 400 ticks behind
-[12Jun2021 03:40:18.358] [Worker-Main-2/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityMoose from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
-[12Jun2021 03:41:28.718] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2051ms or 41 ticks behind
-[12Jun2021 03:42:13.144] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 29428ms or 588 ticks behind
-[12Jun2021 03:42:53.960] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 25844ms or 516 ticks behind
-[12Jun2021 03:43:38.684] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 29768ms or 595 ticks behind
-[12Jun2021 03:44:33.249] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 39583ms or 791 ticks behind
-[12Jun2021 03:45:07.734] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 19517ms or 390 ticks behind
-[12Jun2021 03:46:13.422] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2056ms or 41 ticks behind
-[12Jun2021 03:47:02.436] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 34019ms or 680 ticks behind
-[12Jun2021 03:47:49.871] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 32454ms or 649 ticks behind
-[12Jun2021 03:47:58.493] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=252, y=48, z=6} BlockPos{x=252, y=49, z=6}
-[12Jun2021 03:48:00.321] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=251, y=47, z=5} BlockPos{x=251, y=48, z=5}
-[12Jun2021 03:48:30.917] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 26051ms or 521 ticks behind
-[12Jun2021 03:49:10.168] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@3a51aa58
-[12Jun2021 03:49:11.104] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Nuvon[/181.139.236.105:64049] logged in with entity id 27785 at (309.5111113578527, 28.0, 23.30000001192093)
-[12Jun2021 03:49:11.179] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon joined the game
-[12Jun2021 03:49:11.266] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20389, l='ServerLevel[zawarudo]', x=248.02, y=62.10, z=33.50]
-[12Jun2021 03:49:11.285] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20955, l='ServerLevel[zawarudo]', x=261.42, y=62.53, z=27.59]
-[12Jun2021 03:49:11.286] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20957, l='ServerLevel[zawarudo]', x=258.50, y=63.09, z=32.48]
-[12Jun2021 03:49:11.306] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/26992, l='ServerLevel[zawarudo]', x=280.90, y=57.25, z=37.77]
-[12Jun2021 03:49:11.347] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/26379, l='ServerLevel[zawarudo]', x=327.93, y=62.49, z=-1.58]
-[12Jun2021 03:49:11.653] [Server thread/INFO] [Scaling Health/]: Sending login packet to player ServerPlayerEntity['Nuvon'/27785, l='ServerLevel[zawarudo]', x=309.51, y=28.00, z=23.30]
-[12Jun2021 03:49:11.653] [Server thread/INFO] [Scaling Health/]: Updating stats for null
-[12Jun2021 03:49:25.490] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 39574ms or 791 ticks behind
-[12Jun2021 03:50:07.518] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 27052ms or 541 ticks behind
-[12Jun2021 03:51:23.265] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2049ms or 40 ticks behind
-[12Jun2021 03:52:02.133] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Daves2126> 302 94 10
-[12Jun2021 03:52:10.315] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 32098ms or 641 ticks behind
-[12Jun2021 03:52:50.514] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 25248ms or 504 ticks behind
-[12Jun2021 03:53:36.256] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 30790ms or 615 ticks behind
-[12Jun2021 03:53:43.893] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Nuvon moved too quickly! -290.2382272073661,2.0,56.036070571857515
-[12Jun2021 03:54:35.317] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Nuvon moved too quickly! 8.897268791179886,-0.0013359791121487774,-4.691116624159768
-[12Jun2021 03:54:36.517] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 45300ms or 906 ticks behind
-[12Jun2021 03:54:53.079] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20389, l='ServerLevel[zawarudo]', x=248.02, y=62.10, z=33.50]
-[12Jun2021 03:54:58.436] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20957, l='ServerLevel[zawarudo]', x=258.50, y=63.09, z=32.48]
-[12Jun2021 03:54:58.679] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20955, l='ServerLevel[zawarudo]', x=261.42, y=62.53, z=27.59]
-[12Jun2021 03:55:08.888] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/26379, l='ServerLevel[zawarudo]', x=327.93, y=62.49, z=-1.58]
-[12Jun2021 03:55:10.203] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 18686ms or 373 ticks behind
-[12Jun2021 03:56:23.479] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2062ms or 41 ticks behind
-[12Jun2021 03:57:11.399] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 32933ms or 658 ticks behind
-[12Jun2021 03:58:03.124] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 36757ms or 735 ticks behind
-[12Jun2021 03:58:45.924] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 27808ms or 556 ticks behind
-[12Jun2021 03:59:37.588] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 36672ms or 733 ticks behind
-[12Jun2021 04:00:06.081] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/28643, l='ServerLevel[zawarudo]', x=342.43, y=56.45, z=-70.52]
-[12Jun2021 04:00:08.719] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 16153ms or 323 ticks behind
-[12Jun2021 04:00:12.277] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon has made the advancement [Isn't It Iron Pick]
-[12Jun2021 04:00:19.296] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nuvon has made the advancement [Diamonds!]
-[12Jun2021 04:00:25.820] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/26379, l='ServerLevel[zawarudo]', x=327.93, y=62.49, z=-1.58]
-[12Jun2021 04:00:32.301] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/26379, l='ServerLevel[zawarudo]', x=327.93, y=62.49, z=-1.58]
-[12Jun2021 04:00:36.000] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/26379, l='ServerLevel[zawarudo]', x=327.93, y=62.49, z=-1.58]
-[12Jun2021 04:00:57.732] [Worker-Main-2/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntitySquirrel from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
-[12Jun2021 04:00:59.431] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2165ms or 43 ticks behind
-[12Jun2021 04:01:01.527] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20389, l='ServerLevel[zawarudo]', x=248.02, y=62.10, z=33.50]
-[12Jun2021 04:01:01.960] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity EntityLamprey['Lamprey'/20957, l='ServerLevel[zawarudo]', x=258.50, y=63.09, z=32.48]
-[12Jun2021 04:01:09.117] [Worker-Main-2/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityBadger from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
-[12Jun2021 04:02:10.467] [Server Watchdog/FATAL] [net.minecraft.server.dedicated.ServerHangWatchdog/]: A single server tick took 60.00 seconds (should be max 0.05)
-[12Jun2021 04:02:10.468] [Server Watchdog/FATAL] [net.minecraft.server.dedicated.ServerHangWatchdog/]: Considering it to be crashed, server will forcibly shutdown.
-[12Jun2021 04:02:12.821] [Server Watchdog/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID a368c9b2-53b4-4bb1-9fdb-02a68d8063c3
+[17Jun2021 04:27:15.110] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.1.0, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[17Jun2021 04:27:15.132] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 11.0.11 by Ubuntu
+[17Jun2021 04:27:17.685] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[17Jun2021 04:27:18.185] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/home/ubuntu/forge/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=SERVER
+[17Jun2021 04:27:24.842] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:26.197] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:26.297] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:26.397] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:26.424] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:26.464] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:26.503] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:26.543] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:26.566] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:26.625] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:26.705] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:26.749] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:26.812] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:26.892] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:26.952] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:27.033] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:27.097] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:27.140] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:27.179] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:27.201] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:27.241] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:27.263] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:27.302] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:27.341] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:27.365] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:27.405] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:27.444] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:27.487] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[17Jun2021 04:27:28.673] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 1:0 token recognition error at: '~'
+[17Jun2021 04:27:40.984] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
+[17Jun2021 04:27:41.028] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[17Jun2021 04:27:41.236] [main/WARN] [mixin/]: Reference map 'boss_tools.refmap.json' for boss_tools.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Jun2021 04:27:45.040] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_helper_levels' ASM patch...
+[17Jun2021 04:27:46.713] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_helper_levels' ASM patch!
+[17Jun2021 04:27:46.856] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_helper_enchantments' ASM patch...
+[17Jun2021 04:27:47.316] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_helper_enchantments' ASM patch!
+[17Jun2021 04:27:47.421] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_helper_apply_modifier' ASM patch...
+[17Jun2021 04:27:47.992] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_helper_apply_modifier' ASM patch!
+[17Jun2021 04:27:48.218] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_custom_entity_collision' ASM patch...
+[17Jun2021 04:27:49.398] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_custom_entity_collision' ASM patch!
+[17Jun2021 04:27:49.868] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_missing_tag_enchantment_tooltip' ASM patch...
+[17Jun2021 04:27:50.995] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_missing_tag_enchantment_tooltip' ASM patch!
+[17Jun2021 04:27:51.117] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_tooltip' ASM patch...
+[17Jun2021 04:27:51.566] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_tooltip' ASM patch!
+[17Jun2021 04:27:53.852] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'set_player_field' ASM patch...
+[17Jun2021 04:27:54.817] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'set_player_field' ASM patch!
+[17Jun2021 04:27:54.881] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'water_movement_slowdown_prevention' ASM patch...
+[17Jun2021 04:27:55.079] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'water_movement_slowdown_prevention' ASM patch!
+[17Jun2021 04:27:55.285] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER
+[17Jun2021 04:27:55.285] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/entity/player/ClientPlayerEntity (java.lang.RuntimeException: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER)
+[17Jun2021 04:27:55.285] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.entity.player.ClientPlayerEntity was not found ars_nouveau.mixins.json:ElytraClientPlayer
+[17Jun2021 04:28:03.314] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Adding 'on_block_change' ASM patch...
+[17Jun2021 04:28:03.949] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Added 'on_block_change' ASM patch!
+[17Jun2021 04:28:04.048] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'sun_brightness_server' ASM patch...
+[17Jun2021 04:28:04.316] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'sun_brightness_server' ASM patch!
+[17Jun2021 04:28:07.946] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Adding 'on_block_change' ASM patch...
+[17Jun2021 04:28:07.988] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Added 'on_block_change' ASM patch!
+[17Jun2021 04:28:08.008] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'sun_brightness_server' ASM patch...
+[17Jun2021 04:28:08.029] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'sun_brightness_server' ASM patch!
+[17Jun2021 04:28:08.955] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_custom_entity_collision' ASM patch...
+[17Jun2021 04:28:09.019] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_custom_entity_collision' ASM patch!
+[17Jun2021 04:28:09.858] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'set_player_field' ASM patch...
+[17Jun2021 04:28:09.915] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'set_player_field' ASM patch!
+[17Jun2021 04:28:09.919] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'water_movement_slowdown_prevention' ASM patch...
+[17Jun2021 04:28:09.956] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'water_movement_slowdown_prevention' ASM patch!
+[17Jun2021 04:28:34.255] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_missing_tag_enchantment_tooltip' ASM patch...
+[17Jun2021 04:28:34.362] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_missing_tag_enchantment_tooltip' ASM patch!
+[17Jun2021 04:28:34.363] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_tooltip' ASM patch...
+[17Jun2021 04:28:34.404] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_tooltip' ASM patch!
+[17Jun2021 04:29:18.178] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_player_field' ASM patch...
+[17Jun2021 04:29:19.043] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_player_field' ASM patch!
+[17Jun2021 04:29:20.139] [modloading-worker-0/INFO] [druidcraft/]: Loading Config: /home/ubuntu/forge/config/druidcraft-server.toml
+[17Jun2021 04:29:20.139] [modloading-worker-0/INFO] [druidcraft/]: Built Config: /home/ubuntu/forge/config/druidcraft-server.toml
+[17Jun2021 04:29:20.195] [modloading-worker-0/INFO] [druidcraft/]: Loaded Config: /home/ubuntu/forge/config/druidcraft-server.toml
+[17Jun2021 04:29:20.195] [modloading-worker-0/INFO] [druidcraft/]: Loading Config: /home/ubuntu/forge/config/druidcraft-client.toml
+[17Jun2021 04:29:20.196] [modloading-worker-0/INFO] [druidcraft/]: Built Config: /home/ubuntu/forge/config/druidcraft-client.toml
+[17Jun2021 04:29:20.196] [modloading-worker-0/INFO] [druidcraft/]: Loaded Config: /home/ubuntu/forge/config/druidcraft-client.toml
+[17Jun2021 04:29:25.032] [modloading-worker-1/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'post_process_vanilla' ASM patch...
+[17Jun2021 04:29:26.277] [modloading-worker-1/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'post_process_vanilla' ASM patch!
+[17Jun2021 04:29:42.307] [modloading-worker-1/INFO] [com.simibubi.create.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[17Jun2021 04:30:00.763] [modloading-worker-1/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'cooldown_tracker_set' ASM patch...
+[17Jun2021 04:30:01.560] [modloading-worker-1/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'cooldown_tracker_set' ASM patch!
+[17Jun2021 04:30:01.891] [modloading-worker-1/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'reach_set_server_entity_interact' ASM patch...
+[17Jun2021 04:30:03.329] [modloading-worker-1/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'reach_set_server_entity_interact' ASM patch!
+[17Jun2021 04:30:03.612] [modloading-worker-1/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'allow_entity_interaction' ASM patch...
+[17Jun2021 04:30:04.676] [modloading-worker-1/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'allow_entity_interaction' ASM patch!
+[17Jun2021 04:30:09.532] [modloading-worker-1/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.2.4...
+[17Jun2021 04:30:09.543] [modloading-worker-1/INFO] [Dungeon Crawl/]: net.minecraft.world.gen.feature.StructureFeature@3236bef4
+[17Jun2021 04:30:09.545] [modloading-worker-1/INFO] [Dungeon Crawl/]: dungeoncrawl:dungeon
+[17Jun2021 04:30:10.568] [modloading-worker-1/INFO] [its_meow.betteranimalsplus.BetterAnimalsPlusMod/]: Injecting super coyotes...
+[17Jun2021 04:30:11.228] [modloading-worker-1/INFO] [corgiaoc.byg.BYG/]: Loading config: /home/ubuntu/forge/config/byg/byg-nether.toml
+[17Jun2021 04:30:11.275] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.1.0, for MC 1.16.5 with MCP 20210115.111550
+[17Jun2021 04:30:11.275] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.1.0 Initialized
+[17Jun2021 04:30:17.384] [modloading-worker-0/INFO] [net.silentchaos512.utils.config.ConfigSpecWrapper/]: Loading config file /home/ubuntu/forge/config/scaling-health/game_settings.toml
+[17Jun2021 04:30:17.412] [modloading-worker-0/INFO] [net.silentchaos512.utils.config.ConfigSpecWrapper/]: Loading config file /home/ubuntu/forge/config/scaling-health/client.toml
+[17Jun2021 04:30:17.415] [modloading-worker-0/INFO] [net.silentchaos512.utils.config.ConfigSpecWrapper/]: Loading config file /home/ubuntu/forge/config/scaling-health/common.toml
+[17Jun2021 04:30:18.994] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod immersiveengineering.
+[17Jun2021 04:30:26.519] [main/INFO] [druidcraft/]: Blocks registered.

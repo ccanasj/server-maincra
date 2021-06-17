@@ -4733,6 +4733,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2021-06-17 03:34:25 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/cfm/birch_crate": {
     "criteria": {
       "has_the_recipe": "2021-06-11 23:54:39 +0000"
@@ -5265,6 +5271,7 @@
     "criteria": {
       "minecraft:skeleton": "2021-06-12 00:11:31 +0000",
       "minecraft:spider": "2021-06-12 00:06:51 +0000",
+      "minecraft:phantom": "2021-06-12 15:13:00 +0000",
       "minecraft:cave_spider": "2021-06-12 03:17:35 +0000",
       "minecraft:zombie": "2021-06-11 23:59:50 +0000",
       "minecraft:drowned": "2021-06-12 03:24:16 +0000"
@@ -8076,6 +8083,12 @@
   "cfm:recipes/cfm/orange_cooler": {
     "criteria": {
       "has_the_recipe": "2021-06-11 23:54:40 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/rogue_pearl": {
+    "criteria": {
+      "rogue_pearl": "2021-06-17 04:04:31 +0000"
     },
     "done": true
   },
@@ -11655,6 +11668,12 @@
     },
     "done": true
   },
+  "betteranimalsplus:lamprey_succ": {
+    "criteria": {
+      "lamprey_succ": "2021-06-12 15:19:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cut_red_sandstone_slab": {
     "criteria": {
       "has_the_recipe": "2021-06-11 23:54:41 +0000"
@@ -12612,6 +12631,12 @@
   "cfm:recipes/cfm/oak_upgraded_fence": {
     "criteria": {
       "has_the_recipe": "2021-06-11 23:54:40 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/root": {
+    "criteria": {
+      "rogue_pearl": "2021-06-17 04:04:31 +0000"
     },
     "done": true
   },

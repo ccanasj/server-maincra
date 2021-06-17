@@ -5258,8 +5258,10 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2021-06-12 03:27:14 +0000",
+      "minecraft:spider": "2021-06-13 23:18:29 +0000",
       "minecraft:creeper": "2021-06-12 03:42:36 +0000",
-      "minecraft:zombie": "2021-06-12 03:18:42 +0000"
+      "minecraft:zombie": "2021-06-12 03:18:42 +0000",
+      "minecraft:drowned": "2021-06-15 21:13:41 +0000"
     },
     "done": false
   },
@@ -8068,6 +8070,12 @@
   "cfm:recipes/cfm/orange_cooler": {
     "criteria": {
       "has_the_recipe": "2021-06-12 02:14:11 +0000"
+    },
+    "done": true
+  },
+  "endrem:main/rogue_pearl": {
+    "criteria": {
+      "rogue_pearl": "2021-06-17 04:05:53 +0000"
     },
     "done": true
   },
@@ -12613,6 +12621,12 @@
     },
     "done": true
   },
+  "endrem:main/root": {
+    "criteria": {
+      "rogue_pearl": "2021-06-17 04:05:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
       "has_the_recipe": "2021-06-12 02:14:12 +0000"
@@ -15383,7 +15397,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "potato": "2021-06-12 03:20:21 +0000",
-      "bread": "2021-06-12 03:32:27 +0000"
+      "bread": "2021-06-12 03:32:27 +0000",
+      "cooked_salmon": "2021-06-17 04:05:10 +0000"
     },
     "done": false
   },

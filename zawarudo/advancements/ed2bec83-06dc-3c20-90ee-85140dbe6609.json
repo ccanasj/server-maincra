@@ -1409,6 +1409,12 @@
     },
     "done": true
   },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2021-06-12 23:17:02 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/reinforced_crystal_quartz_slab": {
     "criteria": {
       "has_the_recipe": "2021-06-12 02:05:48 +0000"
@@ -4043,6 +4049,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2021-06-12 22:44:41 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/chocolate_pie_from_slices": {
     "criteria": {
       "has_the_recipe": "2021-06-12 02:05:49 +0000"
@@ -4490,6 +4502,12 @@
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2021-06-12 02:19:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2021-06-12 22:51:03 +0000"
     },
     "done": true
   },
@@ -5263,6 +5281,8 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2021-06-12 23:17:11 +0000",
+      "minecraft:spider": "2021-06-12 23:11:56 +0000",
       "minecraft:zombie": "2021-06-12 02:24:48 +0000"
     },
     "done": false
@@ -7618,6 +7638,12 @@
       "has_the_recipe": "2021-06-12 02:05:49 +0000"
     },
     "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "sweet_berries": "2021-06-12 22:44:50 +0000"
+    },
+    "done": false
   },
   "securitycraft:recipes/securitycraft/reinforced_smooth_sandstone": {
     "criteria": {
@@ -15392,6 +15418,9 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "sweet_berries": "2021-06-12 23:16:12 +0000",
+      "apple": "2021-06-12 22:31:25 +0000",
+      "bread": "2021-06-12 17:01:17 +0000",
       "rotten_flesh": "2021-06-12 02:38:18 +0000",
       "cooked_salmon": "2021-06-12 03:32:37 +0000"
     },

@@ -1,0 +1,490 @@
+---- Minecraft Crash Report ----
+// Oh - I know what I did wrong!
+
+Time: 6/17/21, 4:26 AM
+Description: Watching Server
+
+java.lang.Error: ServerHangWatchdog detected that a single server tick took 60.00 seconds (should be max 0.05)
+	at java.util.Collections$UnmodifiableMap.values(Collections.java:1487) ~[?:?] {}
+	at top.theillusivec4.curios.common.CuriosHelper.lambda$getEquippedCurios$1(CuriosHelper.java:83) ~[curios:property(class java.lang.String, provider(?))] {re:classloading}
+	at top.theillusivec4.curios.common.CuriosHelper$$Lambda$15142/0x000000084256d040.apply(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.common.util.LazyOptional.lambda$lazyMap$0(LazyOptional.java:190) ~[forge:?] {re:classloading}
+	at net.minecraftforge.common.util.LazyOptional$$Lambda$15143/0x000000084256d440.get(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.common.util.LazyOptional.getValue(LazyOptional.java:122) ~[forge:?] {re:classloading}
+	at net.minecraftforge.common.util.LazyOptional.orElse(LazyOptional.java:254) ~[forge:?] {re:classloading}
+	at com.hollingsworth.arsnouveau.api.util.ManaUtil.getMaxMana(ManaUtil.java:56) ~[ars_nouveau:1.18.5] {re:classloading}
+	at com.hollingsworth.arsnouveau.common.event.ManaCapEvents.lambda$syncPlayerEvent$6(ManaCapEvents.java:76) ~[ars_nouveau:1.18.5] {re:classloading}
+	at com.hollingsworth.arsnouveau.common.event.ManaCapEvents$$Lambda$15141/0x000000084256dc40.accept(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.common.util.LazyOptional.ifPresent(LazyOptional.java:165) ~[forge:?] {re:classloading}
+	at com.hollingsworth.arsnouveau.common.event.ManaCapEvents.syncPlayerEvent(ManaCapEvents.java:75) ~[ars_nouveau:1.18.5] {re:classloading}
+	at com.hollingsworth.arsnouveau.common.event.ManaCapEvents.playerLoggedIn(ManaCapEvents.java:65) ~[ars_nouveau:1.18.5] {re:classloading}
+	at net.minecraftforge.eventbus.ASMEventHandler_614_ManaCapEvents_playerLoggedIn_StartTracking.invoke(.dynamic) ~[?:?] {}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus$$Lambda$2657/0x0000000840a47c40.invoke(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.event.ForgeEventFactory.onStartEntityTracking(ForgeEventFactory.java:313) ~[forge:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.world.TrackedEntity.func_219455_b(TrackedEntity.java:196) ~[?:?] {re:classloading,xf:fml:twilightforest:sync}
+	at net.minecraft.world.server.ChunkManager$EntityTracker.func_219400_b(ChunkManager.java:1155) ~[?:?] {re:classloading}
+	at net.minecraft.world.server.ChunkManager$EntityTracker.func_219397_a(ChunkManager.java:1184) ~[?:?] {re:classloading}
+	at net.minecraft.world.server.ChunkManager.func_219210_a(ChunkManager.java:958) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerChunkProvider.func_217230_c(ServerChunkProvider.java:453) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerWorld.func_217465_m(ServerWorld.java:933) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:quark.mixins.json:ServerWorldMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerWorld.func_72838_d(ServerWorld.java:819) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:quark.mixins.json:ServerWorldMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerWorld.func_217376_c(ServerWorld.java:754) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:quark.mixins.json:ServerWorldMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.world.IServerWorld$$Lambda$15201/0x0000000842586c40.accept(Unknown Source) ~[?:?] {}
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?] {}
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[?:?] {}
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) ~[?:?] {}
+	at net.minecraft.world.IServerWorld.func_242417_l(SourceFile:11) ~[?:?] {re:mixin,re:computing_frames,re:classloading}
+	at net.minecraft.world.spawner.WorldEntitySpawner.func_234966_a_(WorldEntitySpawner.java:178) ~[?:?] {re:classloading}
+	at net.minecraft.world.spawner.WorldEntitySpawner.func_234967_a_(WorldEntitySpawner.java:124) ~[?:?] {re:classloading}
+	at net.minecraft.world.spawner.WorldEntitySpawner.func_234979_a_(WorldEntitySpawner.java:110) ~[?:?] {re:classloading}
+	at net.minecraft.world.server.ServerChunkProvider.func_241099_a_(ServerChunkProvider.java:359) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerChunkProvider$$Lambda$14564/0x0000000842476c40.accept(Unknown Source) ~[?:?] {}
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?] {re:computing_frames}
+	at net.minecraft.world.server.ServerChunkProvider.func_217220_m(ServerChunkProvider.java:346) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerChunkProvider.func_217207_a(ServerChunkProvider.java:321) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:333) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:quark.mixins.json:ServerWorldMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:851) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:291) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:787) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:642) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer$$Lambda$14037/0x0000000842318840.run(Unknown Source) ~[?:?] {}
+	at java.lang.Thread.run(Thread.java:829) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at java.util.Collections$UnmodifiableMap.values(Collections.java:1487) ~[?:?] {}
+	at top.theillusivec4.curios.common.CuriosHelper.lambda$getEquippedCurios$1(CuriosHelper.java:83) ~[curios:property(class java.lang.String, provider(?))] {re:classloading}
+	at top.theillusivec4.curios.common.CuriosHelper$$Lambda$15142/0x000000084256d040.apply(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.common.util.LazyOptional.lambda$lazyMap$0(LazyOptional.java:190) ~[forge:?] {re:classloading}
+	at net.minecraftforge.common.util.LazyOptional$$Lambda$15143/0x000000084256d440.get(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.common.util.LazyOptional.getValue(LazyOptional.java:122) ~[forge:?] {re:classloading}
+	at net.minecraftforge.common.util.LazyOptional.orElse(LazyOptional.java:254) ~[forge:?] {re:classloading}
+	at com.hollingsworth.arsnouveau.api.util.ManaUtil.getMaxMana(ManaUtil.java:56) ~[ars_nouveau:1.18.5] {re:classloading}
+	at com.hollingsworth.arsnouveau.common.event.ManaCapEvents.lambda$syncPlayerEvent$6(ManaCapEvents.java:76) ~[ars_nouveau:1.18.5] {re:classloading}
+	at com.hollingsworth.arsnouveau.common.event.ManaCapEvents$$Lambda$15141/0x000000084256dc40.accept(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.common.util.LazyOptional.ifPresent(LazyOptional.java:165) ~[forge:?] {re:classloading}
+	at com.hollingsworth.arsnouveau.common.event.ManaCapEvents.syncPlayerEvent(ManaCapEvents.java:75) ~[ars_nouveau:1.18.5] {re:classloading}
+	at com.hollingsworth.arsnouveau.common.event.ManaCapEvents.playerLoggedIn(ManaCapEvents.java:65) ~[ars_nouveau:1.18.5] {re:classloading}
+	at net.minecraftforge.eventbus.ASMEventHandler_614_ManaCapEvents_playerLoggedIn_StartTracking.invoke(.dynamic) ~[?:?] {}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus$$Lambda$2657/0x0000000840a47c40.invoke(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.event.ForgeEventFactory.onStartEntityTracking(ForgeEventFactory.java:313) ~[forge:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.world.TrackedEntity.func_219455_b(TrackedEntity.java:196) ~[?:?] {re:classloading,xf:fml:twilightforest:sync}
+	at net.minecraft.world.server.ChunkManager$EntityTracker.func_219400_b(ChunkManager.java:1155) ~[?:?] {re:classloading}
+	at net.minecraft.world.server.ChunkManager$EntityTracker.func_219397_a(ChunkManager.java:1184) ~[?:?] {re:classloading}
+	at net.minecraft.world.server.ChunkManager.func_219210_a(ChunkManager.java:958) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerChunkProvider.func_217230_c(ServerChunkProvider.java:453) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerWorld.func_217465_m(ServerWorld.java:933) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:quark.mixins.json:ServerWorldMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerWorld.func_72838_d(ServerWorld.java:819) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:quark.mixins.json:ServerWorldMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerWorld.func_217376_c(ServerWorld.java:754) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:quark.mixins.json:ServerWorldMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.world.IServerWorld$$Lambda$15201/0x0000000842586c40.accept(Unknown Source) ~[?:?] {}
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?] {}
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[?:?] {}
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) ~[?:?] {}
+	at net.minecraft.world.IServerWorld.func_242417_l(SourceFile:11) ~[?:?] {re:mixin,re:computing_frames,re:classloading}
+	at net.minecraft.world.spawner.WorldEntitySpawner.func_234966_a_(WorldEntitySpawner.java:178) ~[?:?] {re:classloading}
+	at net.minecraft.world.spawner.WorldEntitySpawner.func_234967_a_(WorldEntitySpawner.java:124) ~[?:?] {re:classloading}
+	at net.minecraft.world.spawner.WorldEntitySpawner.func_234979_a_(WorldEntitySpawner.java:110) ~[?:?] {re:classloading}
+	at net.minecraft.world.server.ServerChunkProvider.func_241099_a_(ServerChunkProvider.java:359) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerChunkProvider$$Lambda$14564/0x0000000842476c40.accept(Unknown Source) ~[?:?] {}
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?] {re:computing_frames}
+	at net.minecraft.world.server.ServerChunkProvider.func_217220_m(ServerChunkProvider.java:346) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerChunkProvider.func_217207_a(ServerChunkProvider.java:321) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:333) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:quark.mixins.json:ServerWorldMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:851) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:291) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:787) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:642) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:A,pl:runtimedistcleaner:A}
+-- Thread Dump --
+Details:
+	Threads: "Reference Handler" daemon prio=10 Id=2 RUNNABLE
+	at java.base@11.0.11/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@11.0.11/java.lang.ref.Reference.processPendingReferences(Reference.java:241)
+	at java.base@11.0.11/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:213)
+
+
+"Finalizer" daemon prio=8 Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@83b16b6
+	at java.base@11.0.11/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@83b16b6
+	at java.base@11.0.11/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@11.0.11/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.base@11.0.11/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:170)
+
+
+"Signal Dispatcher" daemon prio=9 Id=4 RUNNABLE
+
+
+"Common-Cleaner" daemon prio=8 Id=9 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@6fce9c1
+	at java.base@11.0.11/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@6fce9c1
+	at java.base@11.0.11/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@11.0.11/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:148)
+	at java.base@11.0.11/java.lang.Thread.run(Thread.java:829)
+	at java.base@11.0.11/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:134)
+
+
+"ForkJoinPool.commonPool-worker-3" daemon prio=5 Id=15 WAITING on java.util.concurrent.ForkJoinPool@2c37dc6
+	at java.base@11.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@2c37dc6
+	at java.base@11.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1628)
+	at java.base@11.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+
+"Thread-0" daemon prio=5 Id=16 TIMED_WAITING
+	at java.base@11.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@11.0.11/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:357)
+	at app//com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:190)
+
+
+"FileSystemWatchService" daemon prio=5 Id=17 RUNNABLE (in native)
+	at java.base@11.0.11/sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at java.base@11.0.11/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:316)
+	at java.base@11.0.11/java.lang.Thread.run(Thread.java:829)
+
+
+"Worker-Bootstrap-1" daemon prio=5 Id=19 RUNNABLE
+	at java.base@11.0.11/java.util.HashMap.hash(HashMap.java:339)
+	at java.base@11.0.11/java.util.HashMap.get(HashMap.java:552)
+	at java.base@11.0.11/java.util.AbstractMap.equals(AbstractMap.java:493)
+	at java.base@11.0.11/java.util.Objects.equals(Objects.java:77)
+	at com.mojang.datafixers.types.templates.TaggedChoice.equals(TaggedChoice.java:107)
+	at java.base@11.0.11/java.util.Objects.equals(Objects.java:77)
+	at com.mojang.datafixers.types.templates.Named.equals(Named.java:81)
+	at java.base@11.0.11/java.util.Objects.equals(Objects.java:77)
+	...
+
+
+"Timer hack thread" daemon prio=5 Id=20 TIMED_WAITING
+	at java.base@11.0.11/java.lang.Thread.sleep(Native Method)
+	at net.minecraft.util.Util$6.run(Util.java:505)
+
+
+"modloading-worker-1" daemon prio=5 Id=21 WAITING on java.util.concurrent.ForkJoinPool@47c1e3fa
+	at java.base@11.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@47c1e3fa
+	at java.base@11.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1628)
+	at java.base@11.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+
+"FileSystemWatchService" daemon prio=5 Id=23 RUNNABLE (in native)
+	at java.base@11.0.11/sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at java.base@11.0.11/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:316)
+	at java.base@11.0.11/java.lang.Thread.run(Thread.java:829)
+
+
+"FileSystemWatchService" daemon prio=5 Id=24 RUNNABLE (in native)
+	at java.base@11.0.11/sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at java.base@11.0.11/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:316)
+	at java.base@11.0.11/java.lang.Thread.run(Thread.java:829)
+
+
+"Worker-Main-2" daemon prio=5 Id=37 WAITING on java.util.concurrent.ForkJoinPool@179fd312
+	at java.base@11.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@179fd312
+	at java.base@11.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.11/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1628)
+	at java.base@11.0.11/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+
+"Snooper Timer" daemon prio=5 Id=39 WAITING on java.util.TaskQueue@764c82c1
+	at java.base@11.0.11/java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@764c82c1
+	at java.base@11.0.11/java.lang.Object.wait(Object.java:328)
+	at java.base@11.0.11/java.util.TimerThread.mainLoop(Timer.java:527)
+	at java.base@11.0.11/java.util.TimerThread.run(Timer.java:506)
+
+
+"Server thread" prio=5 Id=38 RUNNABLE
+	at java.base@11.0.11/java.util.Collections$UnmodifiableMap.values(Collections.java:1487)
+	at top.theillusivec4.curios.common.CuriosHelper.lambda$getEquippedCurios$1(CuriosHelper.java:83)
+	at top.theillusivec4.curios.common.CuriosHelper$$Lambda$15142/0x000000084256d040.apply(Unknown Source)
+	at net.minecraftforge.common.util.LazyOptional.lambda$lazyMap$0(LazyOptional.java:190)
+	at net.minecraftforge.common.util.LazyOptional$$Lambda$15143/0x000000084256d440.get(Unknown Source)
+	at net.minecraftforge.common.util.LazyOptional.getValue(LazyOptional.java:122)
+	-  locked java.lang.Object@6ff8ec83
+	at net.minecraftforge.common.util.LazyOptional.orElse(LazyOptional.java:254)
+	at com.hollingsworth.arsnouveau.api.util.ManaUtil.getMaxMana(ManaUtil.java:56)
+	...
+
+
+"DestroyJavaVM" prio=5 Id=41 RUNNABLE
+
+
+"Server console handler" daemon prio=5 Id=42 RUNNABLE (in native)
+	at java.base@11.0.11/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@11.0.11/java.io.FileInputStream.read(FileInputStream.java:279)
+	at java.base@11.0.11/java.io.BufferedInputStream.read1(BufferedInputStream.java:290)
+	at java.base@11.0.11/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	-  locked java.io.BufferedInputStream@27ee1cb5
+	at java.base@11.0.11/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at java.base@11.0.11/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at java.base@11.0.11/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	-  locked java.io.InputStreamReader@4e005c19
+	at java.base@11.0.11/java.io.InputStreamReader.read(InputStreamReader.java:181)
+	...
+
+
+"ObjectCleanerThread" daemon prio=1 Id=43 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@5c489592
+	at java.base@11.0.11/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@5c489592
+	at java.base@11.0.11/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at app//io.netty.util.internal.ObjectCleaner$1.run(ObjectCleaner.java:54)
+	at app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base@11.0.11/java.lang.Thread.run(Thread.java:829)
+
+
+"Netty Epoll Server IO #0" daemon prio=5 Id=44 RUNNABLE
+	at java.base@11.0.11/java.util.zip.Deflater.deflateBytesBytes(Native Method)
+	at java.base@11.0.11/java.util.zip.Deflater.deflate(Deflater.java:595)
+	-  locked java.util.zip.Deflater$DeflaterZStreamRef@74fce66c
+	at java.base@11.0.11/java.util.zip.Deflater.deflate(Deflater.java:493)
+	at net.minecraft.network.NettyCompressionEncoder.encode(SourceFile:36)
+	at net.minecraft.network.NettyCompressionEncoder.encode(SourceFile:9)
+	at app//io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107)
+	at app//io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:738)
+	at app//io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:730)
+	...
+
+
+"FileSystemWatchService" daemon prio=5 Id=45 RUNNABLE (in native)
+	at java.base@11.0.11/sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at java.base@11.0.11/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:316)
+	at java.base@11.0.11/java.lang.Thread.run(Thread.java:829)
+
+
+"FileSystemWatchService" daemon prio=5 Id=46 RUNNABLE (in native)
+	at java.base@11.0.11/sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at java.base@11.0.11/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:316)
+	at java.base@11.0.11/java.lang.Thread.run(Thread.java:829)
+
+
+"IO-Worker-3" prio=5 Id=47 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@23a047f2
+	at java.base@11.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@23a047f2
+	at java.base@11.0.11/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.11/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
+	at java.base@11.0.11/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+	at java.base@11.0.11/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+	at java.base@11.0.11/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+	at java.base@11.0.11/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.11/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	...
+
+
+"IO-Worker-5" prio=5 Id=49 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@23a047f2
+	at java.base@11.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@23a047f2
+	at java.base@11.0.11/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.11/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
+	at java.base@11.0.11/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+	at java.base@11.0.11/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+	at java.base@11.0.11/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+	at java.base@11.0.11/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.11/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	...
+
+
+"IO-Worker-6" prio=5 Id=50 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@23a047f2
+	at java.base@11.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@23a047f2
+	at java.base@11.0.11/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.11/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
+	at java.base@11.0.11/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+	at java.base@11.0.11/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+	at java.base@11.0.11/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+	at java.base@11.0.11/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.11/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	...
+
+
+"Server Watchdog" daemon prio=5 Id=51 RUNNABLE
+	at java.management@11.0.11/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@11.0.11/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
+	at java.management@11.0.11/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:41)
+	at java.base@11.0.11/java.lang.Thread.run(Thread.java:829)
+
+
+"ResearchIOThread" daemon prio=5 Id=52 TIMED_WAITING on java.util.TaskQueue@6f8c270b
+	at java.base@11.0.11/java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@6f8c270b
+	at java.base@11.0.11/java.util.TimerThread.mainLoop(Timer.java:553)
+	at java.base@11.0.11/java.util.TimerThread.run(Timer.java:506)
+
+
+"WorldCacheIOThread" daemon prio=5 Id=53 TIMED_WAITING on java.util.TaskQueue@77f0cb6d
+	at java.base@11.0.11/java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@77f0cb6d
+	at java.base@11.0.11/java.util.TimerThread.mainLoop(Timer.java:553)
+	at java.base@11.0.11/java.util.TimerThread.run(Timer.java:506)
+
+
+"Java2D Disposer" daemon prio=10 Id=54 WAITING on java.lang.ref.ReferenceQueue$Lock@642c9c79
+	at java.base@11.0.11/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@642c9c79
+	at java.base@11.0.11/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@11.0.11/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.desktop@11.0.11/sun.java2d.Disposer.run(Disposer.java:144)
+	at java.base@11.0.11/java.lang.Thread.run(Thread.java:829)
+
+
+"Netty Epoll Server IO #1" daemon prio=5 Id=56 RUNNABLE
+	at app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.base@11.0.11/java.lang.Thread.run(Thread.java:829)
+
+
+"Netty Epoll Server IO #2" daemon prio=5 Id=57 RUNNABLE (in native)
+	at app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.base@11.0.11/java.lang.Thread.run(Thread.java:829)
+
+
+"Netty Epoll Server IO #3" daemon prio=5 Id=58 RUNNABLE
+	at app//io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at app//io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at app//io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at app//io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at app//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.base@11.0.11/java.lang.Thread.run(Thread.java:829)
+
+
+"IO-Worker-7" prio=5 Id=62 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@23a047f2
+	at java.base@11.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@23a047f2
+	at java.base@11.0.11/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at java.base@11.0.11/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462)
+	at java.base@11.0.11/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+	at java.base@11.0.11/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)
+	at java.base@11.0.11/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)
+	at java.base@11.0.11/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.11/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	...
+
+
+"Keep-Alive-Timer" daemon prio=8 Id=65 TIMED_WAITING
+	at java.base@11.0.11/java.lang.Thread.sleep(Native Method)
+	at java.base@11.0.11/sun.net.www.http.KeepAliveCache.run(KeepAliveCache.java:168)
+	at java.base@11.0.11/java.lang.Thread.run(Thread.java:829)
+	at java.base@11.0.11/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:134)
+
+
+
+Stacktrace:
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:56) [?:?] {re:classloading}
+	at java.lang.Thread.run(Thread.java:829) [?:?] {}
+
+
+-- Performance stats --
+Details:
+	Random tick rate: 3
+	Level stats: ResourceKey[minecraft:dimension / minecraft:overworld]: players: 2, entities: 183 [minecraft:salmon:62,minecraft:item:16,betteranimalsplus:butterfly:13,minecraft:zombie:7,minecraft:creeper:7], block_entities: 39 [quark:monster_box:15,lootr:special_loot_chest:9,minecraft:mob_spawner:9,minecraft:chest:4,minecraft:furnace:2], block_ticks: 372, fluid_ticks: 12, chunk_source: ServerChunkCache: 2605,
+ResourceKey[minecraft:dimension / minecraft:the_nether]: players: 0, entities: 0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: ServerChunkCache: 0,
+ResourceKey[minecraft:dimension / minecraft:the_end]: players: 0, entities: 0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: ServerChunkCache: 0,
+ResourceKey[minecraft:dimension / twilightforest:twilightforest]: players: 0, entities: 0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: ServerChunkCache: 0,
+ResourceKey[minecraft:dimension / boss_tools:mercury]: players: 0, entities: 0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: ServerChunkCache: 0,
+ResourceKey[minecraft:dimension / boss_tools:orbit_mars]: players: 0, entities: 0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: ServerChunkCache: 0,
+ResourceKey[minecraft:dimension / twilightforest:skylight_forest]: players: 0, entities: 0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: ServerChunkCache: 0,
+ResourceKey[minecraft:dimension / boss_tools:orbit_mercury]: players: 0, entities: 0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: ServerChunkCache: 0,
+ResourceKey[minecraft:dimension / boss_tools:mars]: players: 0, entities: 0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: ServerChunkCache: 0,
+ResourceKey[minecraft:dimension / atum:atum]: players: 0, entities: 0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: ServerChunkCache: 0,
+ResourceKey[minecraft:dimension / boss_tools:orbit_moon]: players: 0, entities: 0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: ServerChunkCache: 0,
+ResourceKey[minecraft:dimension / boss_tools:moon]: players: 0, entities: 0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: ServerChunkCache: 0,
+ResourceKey[minecraft:dimension / boss_tools:orbit_overworld]: players: 0, entities: 0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: ServerChunkCache: 0
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Linux (amd64) version 5.8.0-1035-aws
+	Java Version: 11.0.11, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 1032928584 bytes (985 MB) / 2122317824 bytes (2024 MB) up to 2122317824 bytes (2024 MB)
+	CPUs: 2
+	JVM Flags: 2 total; -Xmx2024M -Xms2024M
+	ModLauncher: 8.0.9+86+master.3cf110c
+	ModLauncher launch target: fmlserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/mixin-0.8.2.jar mixin PLUGINSERVICE 
+		/eventbus-4.0.0.jar eventbus PLUGINSERVICE 
+		/forge-1.16.5-36.1.0.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.1.0.jar runtime_enum_extender PLUGINSERVICE 
+		/forge-1.16.5-36.1.0.jar capability_inject_definalize PLUGINSERVICE 
+		/accesstransformers-3.0.1.jar accesstransformer PLUGINSERVICE 
+		/forge-1.16.5-36.1.0.jar runtimedistcleaner PLUGINSERVICE 
+		/mixin-0.8.2.jar mixin TRANSFORMATIONSERVICE 
+		/forge-1.16.5-36.1.0.jar fml TRANSFORMATIONSERVICE 
+	FML: 36.1
+	Forge: net.minecraftforge:36.1.0
+	FML Language Providers: 
+		javafml@36.1
+		minecraft@1
+	Mod List: 
+		forge-1.16.5-36.1.0-server.jar                    |Minecraft                     |minecraft                     |1.16.5              |DONE      |NOSIGNATURE
+		TConstruct-1.16.5-3.0.4.171.jar                   |Tinkers' Construct            |tconstruct                    |3.0.4.171           |DONE      |NOSIGNATURE
+		FarmersDelight-1.16.5-0.4.3.jar                   |Farmer's Delight              |farmersdelight                |1.16.5-0.4.3        |DONE      |NOSIGNATURE
+		QuarkOddities-1.16.3.jar                          |Quark Oddities                |quarkoddities                 |1.16.3              |DONE      |NOSIGNATURE
+		mowziesmobs-1.5.18.jar                            |Mowzie's Mobs                 |mowziesmobs                   |1.5.18              |DONE      |NOSIGNATURE
+		DungeonsMod-1.16.3-1.3.20.jar                     |Dungeons Mod                  |dungeonsmod                   |1.16.3-1.3.20       |DONE      |NOSIGNATURE
+		astralsorcery-1.16-1.16.5-1.13.12.jar             |Astral Sorcery                |astralsorcery                 |1.16.5-1.13.12      |DONE      |45:2b:0a:49:6b:65:3b:39:a9:dd:d2:5b:55:7f:82:47:a5:1d:7a:cc:7f:a8:69:73:72:53:6f:57:4d:b2:1a:b7
+		ToolBelt-1.16.5-1.16.0.jar                        |Tool Belt                     |toolbelt                      |1.16.0              |DONE      |NOSIGNATURE
+		silent-lib-1.16.3-4.9.6.jar                       |Silent Lib                    |silentlib                     |4.9.6               |DONE      |NOSIGNATURE
+		EndRemastered-R36.jar                             |End Remastered 3.6            |endrem                        |1.16.3              |DONE      |NOSIGNATURE
+		Bountiful+Baubles+FORGE-1.16.3-0.0.2.jar          |Bountiful Baubles             |bountifulbaubles              |NONE                |DONE      |NOSIGNATURE
+		jei-1.16.5-7.7.0.105.jar                          |Just Enough Items             |jei                           |7.7.0.105           |DONE      |NOSIGNATURE
+		Druidcraft-1.16.5-0.4.52.jar                      |Druidcraft                    |druidcraft                    |0.4.52              |DONE      |NOSIGNATURE
+		Mekanism-1.16.5-10.0.21.448.jar                   |Mekanism                      |mekanism                      |10.0.21             |DONE      |NOSIGNATURE
+		curios-forge-1.16.5-4.0.5.2.jar                   |Curios API                    |curios                        |1.16.5-4.0.5.2      |DONE      |NOSIGNATURE
+		Space-Bosstools-1.16.5-5.2c.jar                   |Space-Bosstools               |boss_tools                    |5.2                 |DONE      |NOSIGNATURE
+		Patchouli-1.16.4-51.jar                           |Patchouli                     |patchouli                     |1.16.4-51           |DONE      |NOSIGNATURE
+		Mantle-1.16.5-1.6.103.jar                         |Mantle                        |mantle                        |1.6.103             |DONE      |NOSIGNATURE
+		create-mc1.16.5_v0.3.1c.jar                       |Create                        |create                        |mc1.16.5_v0.3.1c+151|DONE      |NOSIGNATURE
+		Waystones_1.16.5-7.6.2.jar                        |Waystones                     |waystones                     |7.6.2               |DONE      |NOSIGNATURE
+		Clumps-6.0.0.24.jar                               |Clumps                        |clumps                        |6.0.0.24            |DONE      |NOSIGNATURE
+		CTM-MC1.16.1-1.1.2.6.jar                          |ConnectedTexturesMod          |ctm                           |MC1.16.1-1.1.2.6    |DONE      |NOSIGNATURE
+		AutoRegLib-1.6-49.jar                             |AutoRegLib                    |autoreglib                    |1.6-49              |DONE      |NOSIGNATURE
+		[1.16.5]+SecurityCraft+v1.8.21.1.jar              |SecurityCraft                 |securitycraft                 |v1.8.21.1           |DONE      |NOSIGNATURE
+		obfuscate-0.6.2-1.16.3.jar                        |Obfuscate                     |obfuscate                     |0.6.2               |DONE      |e1:59:1a:56:ec:97:b3:d0:b3:4b:25:06:1f:83:b0:f4:fd:0c:24:e3:6d:ea:94:b1:9f:22:b0:38:13:60:88:ea
+		DungeonCrawl-1.16.3-2.2.4.jar                     |Dungeon Crawl                 |dungeoncrawl                  |2.2.4               |DONE      |NOSIGNATURE
+		betteranimalsplus-1.16.5-10.2.0.jar               |Better Animals Plus           |betteranimalsplus             |10.2.0              |DONE      |NOSIGNATURE
+		MutantBeasts-1.16.4-1.1.3.jar                     |Mutant Beasts                 |mutantbeasts                  |1.16.4-1.1.3        |DONE      |d9:be:bd:b6:9a:e4:14:aa:05:67:fb:84:06:77:a0:c5:10:ec:27:15:1b:d6:c0:88:49:9a:ef:26:77:61:0b:5e
+		cfm-7.0.0pre22-1.16.3.jar                         |MrCrayfish's Furniture Mod    |cfm                           |7.0.0-pre22         |DONE      |NOSIGNATURE
+		lootr-1.16.4-0.0.5.17.jar                         |Lootr                         |lootr                         |1.16.4-0.0.5.17     |DONE      |NOSIGNATURE
+		AI-Improvements-1.16.2-0.3.0.jar                  |AI-Improvements               |aiimprovements                |0.3.0               |DONE      |NOSIGNATURE
+		observerlib-1.16.5-1.5.3.jar                      |ObserverLib                   |observerlib                   |1.16.5-1.5.3        |DONE      |NOSIGNATURE
+		MekanismGenerators-1.16.5-10.0.21.448.jar         |Mekanism: Generators          |mekanismgenerators            |10.0.21             |DONE      |NOSIGNATURE
+		byg-1.2.9.jar                                     |Oh The Biomes You'll Go       |byg                           |1.2.9               |DONE      |NOSIGNATURE
+		forge-1.16.5-36.1.0-universal.jar                 |Forge                         |forge                         |36.1.0              |DONE      |22:af:21:d8:19:82:7f:93:94:fe:2b:ac:b7:e4:41:57:68:39:87:b1:a7:5c:c6:44:f9:25:74:21:14:f5:0d:90
+		Quark-r2.4-312.jar                                |Quark                         |quark                         |r2.4-312            |DONE      |NOSIGNATURE
+		Atum-1.16.5-2.2.4.jar                             |Atum 2                        |atum                          |1.16.5-2.2.4        |DONE      |NOSIGNATURE
+		ScalingHealth-1.16.5-4.0.5+5.jar                  |Scaling Health                |scalinghealth                 |4.0.5+5             |DONE      |NOSIGNATURE
+		twilightforest-1.16.5-4.0.490-universal.jar       |The Twilight Forest           |twilightforest                |NONE                |DONE      |NOSIGNATURE
+		geckolib-forge-1.16.5-3.0.41.jar                  |GeckoLib                      |geckolib3                     |3.0.41              |DONE      |NOSIGNATURE
+		ars_nouveau-1.16.5-1.18.5.jar                     |Ars Nouveau                   |ars_nouveau                   |1.18.5              |DONE      |NOSIGNATURE
+		Cyclic-1.16.5-1.2.10.jar                          |Cyclic                        |cyclic                        |1.16.5-1.2.10       |DONE      |1f:47:ac:b1:61:82:96:b8:47:19:16:d2:61:81:11:60:3a:06:4b:61:31:56:7d:44:31:1e:0c:6f:22:5b:4c:ed
+	Crash Report UUID: 51c2bb82-634e-4057-a86d-85722ebff9b2
+	Player Count: 2 / 20; [ServerPlayerEntity['Daves2126'/131, l='ServerLevel[zawarudo]', x=320.36, y=63.00, z=-148.54], ServerPlayerEntity['ccanasj'/218, l='ServerLevel[zawarudo]', x=286.10, y=68.25, z=-85.60]]
+	Data Packs: vanilla, mod:tconstruct (incompatible), mod:farmersdelight, mod:quarkoddities (incompatible), mod:mowziesmobs (incompatible), mod:dungeonsmod, mod:astralsorcery, mod:toolbelt (incompatible), mod:silentlib (incompatible), mod:endrem, mod:bountifulbaubles (incompatible), mod:druidcraft (incompatible), mod:mekanism, mod:curios, mod:boss_tools, mod:patchouli (incompatible), mod:mantle (incompatible), mod:create, mod:waystones (incompatible), mod:clumps, mod:ctm (incompatible), mod:autoreglib (incompatible), mod:securitycraft (incompatible), mod:obfuscate (incompatible), mod:dungeoncrawl, mod:betteranimalsplus (incompatible), mod:mutantbeasts (incompatible), mod:cfm (incompatible), mod:lootr (incompatible), mod:aiimprovements, mod:observerlib, mod:mekanismgenerators, mod:byg, mod:forge, mod:quark (incompatible), mod:atum, mod:scalinghealth, mod:twilightforest, mod:geckolib3 (incompatible), mod:ars_nouveau, mod:cyclic (incompatible), mod:jei
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)

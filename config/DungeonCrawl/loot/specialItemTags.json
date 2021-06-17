@@ -4,7 +4,7 @@
     {
       "name": "Deflection",
       "effect": "enchant",
-      "rarity": 0,
+      "rarity": 1,
       "enchantments": [
         "minecraft:thorns"
       ]
@@ -12,7 +12,7 @@
     {
       "name": "Protection",
       "effect": "enchant",
-      "rarity": 0,
+      "rarity": 1,
       "enchantments": [
         "minecraft:protection"
       ]
@@ -20,7 +20,7 @@
     {
       "name": "the Apprentice",
       "effect": "enchant_randomly",
-      "rarity": 0
+      "rarity": 1
     },
     {
       "name": "the Master Blacksmith",
@@ -37,7 +37,7 @@
     {
       "name": "the Harvester",
       "effect": "enchant",
-      "rarity": 0,
+      "rarity": 2,
       "enchantments": [
         "minecraft:efficiency"
       ]
@@ -45,9 +45,14 @@
   ],
   "sword": [
     {
+      "name": "Puto el que lo lea",
+      "effect": "enchant_randomly",
+      "rarity": 0
+    },
+    {
       "name": "the Cinder Lord",
       "effect": "enchant",
-      "rarity": 0,
+      "rarity": 1,
       "enchantments": [
         "minecraft:fire_aspect"
       ]
@@ -55,7 +60,7 @@
     {
       "name": "the Rogue Knight",
       "effect": "enchant",
-      "rarity": 0,
+      "rarity": 1,
       "enchantments": [
         "minecraft:sweeping"
       ]
@@ -63,7 +68,7 @@
     {
       "name": "the Monster Slayer",
       "effect": "enchant",
-      "rarity": 0,
+      "rarity": 1,
       "enchantments": [
         "minecraft:smite"
       ]
@@ -71,7 +76,7 @@
     {
       "name": "the Goblin Slayer",
       "effect": "enchant",
-      "rarity": 0,
+      "rarity": 2,
       "enchantments": [
         "minecraft:sharpness"
       ]
@@ -82,14 +87,14 @@
     {
       "name": "Arcane",
       "effect": "enchant_randomly",
-      "rarity": 0
+      "rarity": 1
     }
   ],
   "armor_prefix": [
     {
       "name": "Tempered",
       "effect": "enchant",
-      "rarity": 0,
+      "rarity": 2,
       "enchantments": [
         "minecraft:protection"
       ]
@@ -97,7 +102,7 @@
     {
       "name": "Fire Proof",
       "effect": "enchant",
-      "rarity": 0,
+      "rarity": 1,
       "enchantments": [
         "minecraft:fire_protection"
       ]
@@ -105,7 +110,7 @@
     {
       "name": "Resistant",
       "effect": "enchant",
-      "rarity": 0,
+      "rarity": 1,
       "enchantments": [
         "minecraft:blast_protection"
       ]
@@ -113,7 +118,7 @@
     {
       "name": "Reinforced",
       "effect": "enchant",
-      "rarity": 0,
+      "rarity": 1,
       "enchantments": [
         "minecraft:projectile_protection"
       ]
@@ -163,7 +168,7 @@
     {
       "name": "Durable",
       "effect": "enchant",
-      "rarity": 0,
+      "rarity": 1,
       "enchantments": [
         "minecraft:unbreaking"
       ]
@@ -171,7 +176,7 @@
     {
       "name": "Hardened",
       "effect": "enchant",
-      "rarity": 0,
+      "rarity": 1,
       "enchantments": [
         "minecraft:unbreaking"
       ]
@@ -179,7 +184,7 @@
     {
       "name": "Blessed",
       "effect": "enchant",
-      "rarity": 0,
+      "rarity": 1,
       "enchantments": [
         "minecraft:efficiency"
       ]
@@ -195,7 +200,7 @@
     {
       "name": "Holy",
       "effect": "enchant",
-      "rarity": 0,
+      "rarity": 1,
       "enchantments": [
         "minecraft:smite"
       ]
@@ -203,7 +208,7 @@
     {
       "name": "Tempered",
       "effect": "enchant",
-      "rarity": 0,
+      "rarity": 2,
       "enchantments": [
         "minecraft:sharpness",
         "minecraft:unbreaking"
@@ -220,7 +225,7 @@
     {
       "name": "Refined",
       "effect": "enchant",
-      "rarity": 0,
+      "rarity": 2,
       "enchantments": [
         "minecraft:power",
         "minecraft:unbreaking"
@@ -229,7 +234,7 @@
     {
       "name": "Powerful",
       "effect": "enchant",
-      "rarity": 0,
+      "rarity": 1,
       "enchantments": [
         "minecraft:punch"
       ]
