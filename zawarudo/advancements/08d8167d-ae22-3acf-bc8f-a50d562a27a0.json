@@ -1991,6 +1991,12 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:soul_sand_valley": "2021-06-19 00:44:04 +0000"
+    },
+    "done": false
+  },
   "create:recipes/create.palettes/fancy_granite_bricks_stairs": {
     "criteria": {
       "has_the_recipe": "2021-06-12 02:34:39 +0000"
@@ -3146,6 +3152,12 @@
   "bountifulbaubles:recipes/bountifulbaubles/disintegration/amulet_sin_empty": {
     "criteria": {
       "has_the_recipe": "2021-06-12 02:34:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2021-06-19 00:44:04 +0000"
     },
     "done": true
   },
@@ -9431,6 +9443,12 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2021-06-18 23:48:15 +0000"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/fancy_diorite_bricks_from_diorite_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-06-12 02:34:39 +0000"
@@ -10979,6 +10997,12 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2021-06-19 00:44:04 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/cfm/birch_upgraded_gate": {
     "criteria": {
       "has_the_recipe": "2021-06-12 02:34:40 +0000"
@@ -11762,6 +11786,12 @@
   "tconstruct:recipes/decorations/gadgets/fancy_frame/gold_item_frame": {
     "criteria": {
       "has_the_recipe": "2021-06-12 02:34:38 +0000"
+    },
+    "done": true
+  },
+  "betteranimalsplus:lamprey_succ": {
+    "criteria": {
+      "lamprey_succ": "2021-06-20 15:28:17 +0000"
     },
     "done": true
   },
@@ -15507,9 +15537,11 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_mutton": "2021-06-20 15:13:48 +0000",
       "sweet_berries": "2021-06-14 02:48:07 +0000",
       "baked_potato": "2021-06-14 20:05:14 +0000",
       "cooked_cod": "2021-06-12 03:55:06 +0000",
+      "poisonous_potato": "2021-06-19 19:24:22 +0000",
       "bread": "2021-06-14 02:43:36 +0000",
       "rotten_flesh": "2021-06-12 03:14:31 +0000",
       "cooked_chicken": "2021-06-12 04:01:43 +0000",
@@ -15874,6 +15906,12 @@
   "create:recipes/create.palettes/andesite_cobblestone_slab": {
     "criteria": {
       "has_the_recipe": "2021-06-12 02:34:40 +0000"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_foliaath": {
+    "criteria": {
+      "foliaath": "2021-06-20 22:27:32 +0000"
     },
     "done": true
   },

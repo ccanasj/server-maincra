@@ -1,102 +1,42 @@
-[17Jun2021 04:27:15.110] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.1.0, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
-[17Jun2021 04:27:15.132] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 11.0.11 by Ubuntu
-[17Jun2021 04:27:17.685] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[17Jun2021 04:27:18.185] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/home/ubuntu/forge/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=SERVER
-[17Jun2021 04:27:24.842] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:26.197] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:26.297] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:26.397] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:26.424] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:26.464] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:26.503] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:26.543] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:26.566] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:26.625] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:26.705] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:26.749] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:26.812] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:26.892] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:26.952] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:27.033] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:27.097] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:27.140] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:27.179] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:27.201] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:27.241] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:27.263] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:27.302] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:27.341] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:27.365] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:27.405] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:27.444] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:27.487] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[17Jun2021 04:27:28.673] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 1:0 token recognition error at: '~'
-[17Jun2021 04:27:40.984] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
-[17Jun2021 04:27:41.028] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[17Jun2021 04:27:41.236] [main/WARN] [mixin/]: Reference map 'boss_tools.refmap.json' for boss_tools.mixins.json could not be read. If this is a development environment you can ignore this message
-[17Jun2021 04:27:45.040] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_helper_levels' ASM patch...
-[17Jun2021 04:27:46.713] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_helper_levels' ASM patch!
-[17Jun2021 04:27:46.856] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_helper_enchantments' ASM patch...
-[17Jun2021 04:27:47.316] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_helper_enchantments' ASM patch!
-[17Jun2021 04:27:47.421] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_helper_apply_modifier' ASM patch...
-[17Jun2021 04:27:47.992] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_helper_apply_modifier' ASM patch!
-[17Jun2021 04:27:48.218] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_custom_entity_collision' ASM patch...
-[17Jun2021 04:27:49.398] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_custom_entity_collision' ASM patch!
-[17Jun2021 04:27:49.868] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_missing_tag_enchantment_tooltip' ASM patch...
-[17Jun2021 04:27:50.995] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_missing_tag_enchantment_tooltip' ASM patch!
-[17Jun2021 04:27:51.117] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_tooltip' ASM patch...
-[17Jun2021 04:27:51.566] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_tooltip' ASM patch!
-[17Jun2021 04:27:53.852] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'set_player_field' ASM patch...
-[17Jun2021 04:27:54.817] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'set_player_field' ASM patch!
-[17Jun2021 04:27:54.881] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'water_movement_slowdown_prevention' ASM patch...
-[17Jun2021 04:27:55.079] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'water_movement_slowdown_prevention' ASM patch!
-[17Jun2021 04:27:55.285] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER
-[17Jun2021 04:27:55.285] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/entity/player/ClientPlayerEntity (java.lang.RuntimeException: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER)
-[17Jun2021 04:27:55.285] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.entity.player.ClientPlayerEntity was not found ars_nouveau.mixins.json:ElytraClientPlayer
-[17Jun2021 04:28:03.314] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Adding 'on_block_change' ASM patch...
-[17Jun2021 04:28:03.949] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Added 'on_block_change' ASM patch!
-[17Jun2021 04:28:04.048] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'sun_brightness_server' ASM patch...
-[17Jun2021 04:28:04.316] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'sun_brightness_server' ASM patch!
-[17Jun2021 04:28:07.946] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Adding 'on_block_change' ASM patch...
-[17Jun2021 04:28:07.988] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Added 'on_block_change' ASM patch!
-[17Jun2021 04:28:08.008] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'sun_brightness_server' ASM patch...
-[17Jun2021 04:28:08.029] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'sun_brightness_server' ASM patch!
-[17Jun2021 04:28:08.955] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_custom_entity_collision' ASM patch...
-[17Jun2021 04:28:09.019] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_custom_entity_collision' ASM patch!
-[17Jun2021 04:28:09.858] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'set_player_field' ASM patch...
-[17Jun2021 04:28:09.915] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'set_player_field' ASM patch!
-[17Jun2021 04:28:09.919] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'water_movement_slowdown_prevention' ASM patch...
-[17Jun2021 04:28:09.956] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'water_movement_slowdown_prevention' ASM patch!
-[17Jun2021 04:28:34.255] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_missing_tag_enchantment_tooltip' ASM patch...
-[17Jun2021 04:28:34.362] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_missing_tag_enchantment_tooltip' ASM patch!
-[17Jun2021 04:28:34.363] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_tooltip' ASM patch...
-[17Jun2021 04:28:34.404] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_tooltip' ASM patch!
-[17Jun2021 04:29:18.178] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_player_field' ASM patch...
-[17Jun2021 04:29:19.043] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_player_field' ASM patch!
-[17Jun2021 04:29:20.139] [modloading-worker-0/INFO] [druidcraft/]: Loading Config: /home/ubuntu/forge/config/druidcraft-server.toml
-[17Jun2021 04:29:20.139] [modloading-worker-0/INFO] [druidcraft/]: Built Config: /home/ubuntu/forge/config/druidcraft-server.toml
-[17Jun2021 04:29:20.195] [modloading-worker-0/INFO] [druidcraft/]: Loaded Config: /home/ubuntu/forge/config/druidcraft-server.toml
-[17Jun2021 04:29:20.195] [modloading-worker-0/INFO] [druidcraft/]: Loading Config: /home/ubuntu/forge/config/druidcraft-client.toml
-[17Jun2021 04:29:20.196] [modloading-worker-0/INFO] [druidcraft/]: Built Config: /home/ubuntu/forge/config/druidcraft-client.toml
-[17Jun2021 04:29:20.196] [modloading-worker-0/INFO] [druidcraft/]: Loaded Config: /home/ubuntu/forge/config/druidcraft-client.toml
-[17Jun2021 04:29:25.032] [modloading-worker-1/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'post_process_vanilla' ASM patch...
-[17Jun2021 04:29:26.277] [modloading-worker-1/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'post_process_vanilla' ASM patch!
-[17Jun2021 04:29:42.307] [modloading-worker-1/INFO] [com.simibubi.create.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
-[17Jun2021 04:30:00.763] [modloading-worker-1/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'cooldown_tracker_set' ASM patch...
-[17Jun2021 04:30:01.560] [modloading-worker-1/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'cooldown_tracker_set' ASM patch!
-[17Jun2021 04:30:01.891] [modloading-worker-1/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'reach_set_server_entity_interact' ASM patch...
-[17Jun2021 04:30:03.329] [modloading-worker-1/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'reach_set_server_entity_interact' ASM patch!
-[17Jun2021 04:30:03.612] [modloading-worker-1/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'allow_entity_interaction' ASM patch...
-[17Jun2021 04:30:04.676] [modloading-worker-1/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'allow_entity_interaction' ASM patch!
-[17Jun2021 04:30:09.532] [modloading-worker-1/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.2.4...
-[17Jun2021 04:30:09.543] [modloading-worker-1/INFO] [Dungeon Crawl/]: net.minecraft.world.gen.feature.StructureFeature@3236bef4
-[17Jun2021 04:30:09.545] [modloading-worker-1/INFO] [Dungeon Crawl/]: dungeoncrawl:dungeon
-[17Jun2021 04:30:10.568] [modloading-worker-1/INFO] [its_meow.betteranimalsplus.BetterAnimalsPlusMod/]: Injecting super coyotes...
-[17Jun2021 04:30:11.228] [modloading-worker-1/INFO] [corgiaoc.byg.BYG/]: Loading config: /home/ubuntu/forge/config/byg/byg-nether.toml
-[17Jun2021 04:30:11.275] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.1.0, for MC 1.16.5 with MCP 20210115.111550
-[17Jun2021 04:30:11.275] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.1.0 Initialized
-[17Jun2021 04:30:17.384] [modloading-worker-0/INFO] [net.silentchaos512.utils.config.ConfigSpecWrapper/]: Loading config file /home/ubuntu/forge/config/scaling-health/game_settings.toml
-[17Jun2021 04:30:17.412] [modloading-worker-0/INFO] [net.silentchaos512.utils.config.ConfigSpecWrapper/]: Loading config file /home/ubuntu/forge/config/scaling-health/client.toml
-[17Jun2021 04:30:17.415] [modloading-worker-0/INFO] [net.silentchaos512.utils.config.ConfigSpecWrapper/]: Loading config file /home/ubuntu/forge/config/scaling-health/common.toml
-[17Jun2021 04:30:18.994] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod immersiveengineering.
-[17Jun2021 04:30:26.519] [main/INFO] [druidcraft/]: Blocks registered.
+[26Jun2021 01:59:32.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[26Jun2021 01:59:32.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[26Jun2021 01:59:32.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[26Jun2021 01:59:32.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[zawarudo]'/minecraft:overworld
+[26Jun2021 01:59:33.149] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (zawarudo): All chunks are saved
+[26Jun2021 01:59:33.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[zawarudo]'/minecraft:the_nether
+[26Jun2021 01:59:33.150] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[26Jun2021 01:59:33.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[zawarudo]'/minecraft:the_end
+[26Jun2021 01:59:33.151] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[26Jun2021 01:59:33.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[zawarudo]'/twilightforest:twilightforest
+[26Jun2021 01:59:33.151] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (twilightforest): All chunks are saved
+[26Jun2021 01:59:33.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[zawarudo]'/boss_tools:mercury
+[26Jun2021 01:59:33.152] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[26Jun2021 01:59:33.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[zawarudo]'/boss_tools:orbit_mars
+[26Jun2021 01:59:33.152] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (orbit_mars): All chunks are saved
+[26Jun2021 01:59:33.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[zawarudo]'/twilightforest:skylight_forest
+[26Jun2021 01:59:33.153] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (skylight_forest): All chunks are saved
+[26Jun2021 01:59:33.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[zawarudo]'/boss_tools:orbit_mercury
+[26Jun2021 01:59:33.153] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (orbit_mercury): All chunks are saved
+[26Jun2021 01:59:33.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[zawarudo]'/boss_tools:mars
+[26Jun2021 01:59:33.154] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[26Jun2021 01:59:33.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[zawarudo]'/atum:atum
+[26Jun2021 01:59:33.154] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (atum): All chunks are saved
+[26Jun2021 01:59:33.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[zawarudo]'/boss_tools:orbit_moon
+[26Jun2021 01:59:33.155] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (orbit_moon): All chunks are saved
+[26Jun2021 01:59:33.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[zawarudo]'/boss_tools:moon
+[26Jun2021 01:59:33.155] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[26Jun2021 01:59:33.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[zawarudo]'/boss_tools:orbit_overworld
+[26Jun2021 01:59:33.156] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (orbit_overworld): All chunks are saved
+[26Jun2021 01:59:33.200] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (zawarudo): All chunks are saved
+[26Jun2021 01:59:33.233] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[26Jun2021 01:59:33.234] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[26Jun2021 01:59:33.234] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (twilightforest): All chunks are saved
+[26Jun2021 01:59:33.235] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[26Jun2021 01:59:33.235] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (orbit_mars): All chunks are saved
+[26Jun2021 01:59:33.236] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (skylight_forest): All chunks are saved
+[26Jun2021 01:59:33.237] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (orbit_mercury): All chunks are saved
+[26Jun2021 01:59:33.237] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[26Jun2021 01:59:33.238] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (atum): All chunks are saved
+[26Jun2021 01:59:33.238] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (orbit_moon): All chunks are saved
+[26Jun2021 01:59:33.239] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[26Jun2021 01:59:33.239] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (orbit_overworld): All chunks are saved

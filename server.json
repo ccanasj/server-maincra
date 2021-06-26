@@ -1,0 +1,9 @@
+{
+    "apps":[
+        {
+            "name":"maincra",
+            "cwd":"/home/ubuntu/forge/server-maincra",
+            "script":"sudo java -Xmx6024M -Xms6024M -jar forge-1.16.5-36.1.0.jar nogui"
+        }
+    ]
+}
